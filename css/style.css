@@ -1,0 +1,337 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Segoeuib";
+    src: url("../font/segoeuib.ttf");
+    /* src: 
+    url("css/fonts/Harabara.woff") format("woff"),
+    url("css/fonts/Harabara.otf") format("opentype"),
+    url("css/fonts/Harabara.svg#filename") format("svg"); */
+}
+
+@font-face {
+    font-family: "YuGothL";
+    src: url("../font/YuGothL.ttc");
+    /* src: 
+        url("css/fonts/Harabara.woff") format("woff"),
+        url("css/fonts/Harabara.otf") format("opentype"),
+        url("css/fonts/Harabara.svg#filename") format("svg"); */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'YuGothL', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.grid {
+    background-color: #282828;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header header" "title title" "content content" "footer footer";
+}
+
+section.dark {
+    grid-area: dark;
+    /* width: 10px; */
+    background-color: #171717;
+}
+
+section.dark2 {
+    grid-area: dark2;
+    background-color: #171717;
+}
+
+
+/* Header */
+
+section.header {
+    background-color: #171717;
+    /* content: 80%; */
+    grid-area: header;
+    min-height: 105px;
+    /* background-color: #171717; */
+    padding: 0;
+    margin: 0;
+}
+
+section.header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoeuib';
+}
+
+/* section.header li {
+    display: inline;
+    padding: 0 10px 0 10px;
+} */
+
+section.header a#current {
+    color: #017e82;
+}
+
+section.header a:hover {
+    color: white;
+}
+
+/* Navigation */
+div#nav {
+    
+    display: grid;
+    border-bottom: white 9px solid;
+    grid-template-columns: 20% 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". menu . contact";
+    padding: 80px 0 0 0;
+    align-self: end;
+}
+
+div#branding{
+    position: relative;
+    /* position: absolute; */
+    margin: 0;
+    
+}
+
+div#branding img {
+    height: 190px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: -63px;
+    left: -30px;
+}
+
+div#menu {
+    /* display: grid; */
+    grid-area: menu;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* background: red; */
+    /* grid-gap: 100px; */
+}
+
+section.header li {
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+div#contact {
+    grid-area: contact;
+    float: right;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* align-self: end; */
+    justify-self: end;
+}
+
+div#contact img {
+    height: 30px;
+}
+
+section.title {
+    grid-area: title;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: normal;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    margin-left: 190px;
+}
+
+section.content {
+    grid-area: content;
+}
+
+section.footer {
+    grid-area: footer;
+}
+
+section.content article {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px; */
+}
+
+
+/* Global */
+
+.container {
+    /* width: 60%;
+    margin: auto;
+    overflow: hidden; */
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .title {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: normal;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    margin-left: 190px;
+} */
+
+div.separator {
+    border-bottom: #ffd452 5px solid;
+    width: 80%;
+    margin: auto;
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+}
+
+
+/* Header */
+
+
+/* header {
+    position: relative;
+    min-height: 105px;
+    background-color: #171717;
+    padding: 0;
+    margin: 0;
+} */
+
+
+/* header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #545353;
+    font-weight: bold;
+    font-family: 'Segoeuib';
+} */
+
+
+
+
+/* header #branding {
+    position: absolute;
+    margin: 0;
+    padding: 45px 0 0 0;
+    border-bottom: white 9px solid;
+    width: 60%;
+    pointer-events: none;
+}
+
+header nav {
+    margin-top: 60px;
+} */
+
+/* header ul#menu {
+    float: left;
+    margin-left: 200px;
+}
+
+header ul#contact {
+    float: right;
+} */
+
+/* header #logo {
+    height: 190px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: -56px;
+    left: -30px;
+} */
+
+/* header img#contact {
+    height: 30px;
+} */
+/* 
+header a#current {
+    color: #017e82;
+}
+
+header a:hover {
+    color: white;
+} */
+
+
+/* Footer */
+
+footer {
+    /* float: right; */
+    /* min-height: 105px; */
+    background-color: #171717;
+    /* padding: 0;
+    margin: 0; */
+    /* position: relative; */
+    bottom: 0;
+    margin-top: 20px;
+    /* width: 100%; */
+}
+
+footer li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+
+/* News */
+
+#news {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+}
+
+#news article {
+    position: relative;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    vertical-align: bottom;
+}
+
+#news article h2 {
+    position: absolute;
+    bottom: -20px;
+    right: 3px;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 55px;
+    padding: 0;
+    float: right;
+}
+
+#news a {
+    color: white;
+    text-decoration: none;
+}
+
+#games article {
+    background-size: cover;
+    background-position: center;
+}
+
+#games article img {
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+
+@media (min-width: 763px) {
+    .grid {
+        background-color: #282828;
+        display: grid;
+        grid-template-columns: 20% 1fr 1fr 20%;
+        grid-template-areas: 
+        "dark header header dark2" 
+        ". title title ." 
+        ". content content ." 
+        "footer footer footer footer";
+    }
+}
