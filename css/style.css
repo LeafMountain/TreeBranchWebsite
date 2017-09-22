@@ -32,8 +32,8 @@
 .grid {
     background-color: #282828;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header header" "title title" "content content" "footer footer";
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "title" "content" "footer";
 }
 
 section.dark {
@@ -52,10 +52,8 @@ section.dark2 {
 
 section.header {
     background-color: #171717;
-    /* content: 80%; */
     grid-area: header;
     min-height: 105px;
-    /* background-color: #171717; */
     padding: 0;
     margin: 0;
 }
@@ -82,38 +80,35 @@ section.header a:hover {
 
 /* Navigation */
 div#nav {
-    
     display: grid;
-    border-bottom: white 9px solid;
-    grid-template-columns: 20% 1fr 1fr 1fr;
+    /* border-bottom: white 9px solid; */
+    grid-template-columns: 40% 1fr;
     grid-template-areas: 
-    ". menu . contact";
-    padding: 80px 0 0 0;
+    "branding contact"
+    "branding menu";
+    /* padding: 80px 0 0 0; */
     align-self: end;
 }
 
 div#branding{
+    grid-area: branding;
     position: relative;
-    /* position: absolute; */
-    margin: 0;
-    
+    margin: 10px;
 }
 
 div#branding img {
-    height: 190px;
-    position: absolute;
+    height: 140px;
+    /* position: absolute; */
     margin: 0;
     padding: 0;
-    top: -63px;
-    left: -30px;
+    /* top: -63px; */
+    /* left: -30px; */
 }
 
 div#menu {
-    /* display: grid; */
     grid-area: menu;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* background: red; */
-    /* grid-gap: 100px; */
+    justify-self: end;
+    
 }
 
 section.header li {
@@ -123,11 +118,11 @@ section.header li {
 
 div#contact {
     grid-area: contact;
-    float: right;
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     /* align-self: end; */
     justify-self: end;
+    margin: 10px;
 }
 
 div#contact img {
@@ -137,11 +132,12 @@ div#contact img {
 section.title {
     grid-area: title;
     text-transform: uppercase;
-    font-size: 60px;
     font-weight: normal;
     padding: 0;
-    margin: 15px 0 15px 0;
-    margin-left: 190px;
+    margin-right: 20px;
+    justify-self: end;
+    font-size: 6vw;
+
 }
 
 section.content {
@@ -152,124 +148,21 @@ section.footer {
     grid-area: footer;
 }
 
-section.content article {
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px; */
-}
-
-
-/* Global */
-
-.container {
-    /* width: 60%;
-    margin: auto;
-    overflow: hidden; */
-}
-
 ul {
     padding: 0;
     margin: 0;
 }
 
-
-/* .title {
-    text-transform: uppercase;
-    font-size: 60px;
-    font-weight: normal;
-    padding: 0;
-    margin: 15px 0 15px 0;
-    margin-left: 190px;
-} */
-
 div.separator {
     border-bottom: #ffd452 5px solid;
     width: 80%;
     margin: auto;
-    /* margin-bottom: 20px; */
-    /* margin-top: 20px; */
 }
-
-
-/* Header */
-
-
-/* header {
-    position: relative;
-    min-height: 105px;
-    background-color: #171717;
-    padding: 0;
-    margin: 0;
-} */
-
-
-/* header a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #545353;
-    font-weight: bold;
-    font-family: 'Segoeuib';
-} */
-
-
-
-
-/* header #branding {
-    position: absolute;
-    margin: 0;
-    padding: 45px 0 0 0;
-    border-bottom: white 9px solid;
-    width: 60%;
-    pointer-events: none;
-}
-
-header nav {
-    margin-top: 60px;
-} */
-
-/* header ul#menu {
-    float: left;
-    margin-left: 200px;
-}
-
-header ul#contact {
-    float: right;
-} */
-
-/* header #logo {
-    height: 190px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: -56px;
-    left: -30px;
-} */
-
-/* header img#contact {
-    height: 30px;
-} */
-/* 
-header a#current {
-    color: #017e82;
-}
-
-header a:hover {
-    color: white;
-} */
-
-
-/* Footer */
 
 footer {
-    /* float: right; */
-    /* min-height: 105px; */
     background-color: #171717;
-    /* padding: 0;
-    margin: 0; */
-    /* position: relative; */
     bottom: 0;
     margin-top: 20px;
-    /* width: 100%; */
 }
 
 footer li {
@@ -323,7 +216,7 @@ footer li {
     height: 400px;
 }
 
-@media (min-width: 763px) {
+@media (min-width: 1200px) {
     .grid {
         background-color: #282828;
         display: grid;
@@ -333,5 +226,44 @@ footer li {
         ". title title ." 
         ". content content ." 
         "footer footer footer footer";
+    }
+
+    div#nav {
+        display: grid;
+        border-bottom: white 9px solid;
+        grid-template-columns: 20% 1fr 1fr;
+        grid-template-areas: 
+        "branding menu contact";
+        padding: 80px 0 0 0;
+    }
+
+    section.title {
+        grid-area: title;
+        text-transform: uppercase;
+        font-weight: normal;
+        padding: 0;
+        margin-right: 20px;
+        justify-self: center;
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
+
+    div#branding img {
+        height: 190px;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: -43px;
+        left: -30px;
+    }
+
+    div#branding{
+        position: relative;
+        margin: 0;
+    }
+
+    div#menu {
+        grid-area: menu; 
+        justify-self: start;       
     }
 }
