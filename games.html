@@ -13,46 +13,63 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container">
-            <div id="branding">
-                <img id="logo" src="./img/logo.png">
-            </div>
+    <section class="grid">
+        <section class="header">
             <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a id="current" href="index.html">Games</a></li>
-                </ul>
+                <div id="nav">
 
-                <ul id="contact">
-                    <li><a id="contact" href="twitter.com"><img id="contact" src="./img/twit_ico.png"></a></li>
-                    <li><img id="contact" src="./img/insta_ico.png"><a id="contact" href="twitter.com"></a></li>
-                    <li><img id="contact" src="./img/fb_ico.png"><a id="contact" href="twitter.com"></a></li>
-                    <li><img id="contact" src="./img/youtube_ico.png"><a id="contact" href="twitter.com"></a></li>
-                </ul>
+                    <div id="branding">
+                        <img id="logo" src="./img/logo.png">
+                    </div>
 
+                    <div id="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a id="current" href="games.html">Games</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="contact">
+                        <ul>
+                            <li><a href="twitter.com"><img id="contact" src="./img/twit_ico.png" onmouseover="this.src='./img/twitb_ico.png';" onmouseout="this.src='./img/twit_ico.png';"></a></li>
+                            <li><a href="twitter.com"><img id="contact" src="./img/insta_ico.png"></a></li>
+                            <li><a href="twitter.com"><img id="contact" src="./img/fb_ico.png"></a></li>
+                            <li><a href="twitter.com"><img id="contact" src="./img/youtube_ico.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </div>
-    </header>
+        </section>
 
-    <section id="games">
-        <div class="container">
-            <h1 class="title">/ Games</h1>
-            <article style="background-image: url(./img/Bild_3.jpg)">
-                <img src="./img/tgf_logo.png">
-            </article>
-            <div class="separator"></div>
+        <section class="title">
+            <h1>/ About</h1>
+        </section>
 
-        </div>
+        <section class="content">
+            <section id="games">
+                <article style="background-image: url(./img/Bild_3.jpg)">
+                    <img src="./img/tgf_logo.png">
+                </article>
+                <div class="separator"></div>
+            </section>
+        </section>
+
+        <section class="footer">
+            <footer>
+                <ul>
+                    <li>Copyright &copy; 2017 Tree Branch</li>
+                    <li>treebranch@treebranch.com</li>
+                </ul>
+            </footer>
+        </section>
+
+        <section class="dark"></section>
+        <section class="dark2"></section>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>Copyright &copy; 2017 Tree Branch</p>
-        </div>
-    </footer>
 </body>
+
+
 
 </html>

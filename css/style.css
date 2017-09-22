@@ -32,13 +32,13 @@
 .grid {
     background-color: #282828;
     display: grid;
+    grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr;
     grid-template-areas: "header" "title" "content" "footer";
 }
 
 section.dark {
     grid-area: dark;
-    /* width: 10px; */
     background-color: #171717;
 }
 
@@ -65,11 +65,6 @@ section.header a {
     font-family: 'Segoeuib';
 }
 
-/* section.header li {
-    display: inline;
-    padding: 0 10px 0 10px;
-} */
-
 section.header a#current {
     color: #017e82;
 }
@@ -81,12 +76,10 @@ section.header a:hover {
 /* Navigation */
 div#nav {
     display: grid;
-    /* border-bottom: white 9px solid; */
     grid-template-columns: 40% 1fr;
     grid-template-areas: 
     "branding contact"
     "branding menu";
-    /* padding: 80px 0 0 0; */
     align-self: end;
 }
 
@@ -98,11 +91,8 @@ div#branding{
 
 div#branding img {
     height: 140px;
-    /* position: absolute; */
     margin: 0;
     padding: 0;
-    /* top: -63px; */
-    /* left: -30px; */
 }
 
 div#menu {
@@ -118,15 +108,16 @@ section.header li {
 
 div#contact {
     grid-area: contact;
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    /* align-self: end; */
     justify-self: end;
     margin: 10px;
 }
 
 div#contact img {
     height: 30px;
+}
+
+a#twitter:hover {
+    height: 1000px;
 }
 
 section.title {
@@ -142,6 +133,7 @@ section.title {
 
 section.content {
     grid-area: content;
+    min-height: 700px;
 }
 
 section.footer {
@@ -220,12 +212,13 @@ footer li {
     .grid {
         background-color: #282828;
         display: grid;
-        grid-template-columns: 20% 1fr 1fr 20%;
+        /* grid-template-rows: 1fr 1fr 4vh; */
+        grid-template-columns: 20% 1fr 20%;
         grid-template-areas: 
-        "dark header header dark2" 
-        ". title title ." 
-        ". content content ." 
-        "footer footer footer footer";
+        "dark header dark2" 
+        ". title ." 
+        ". content ." 
+        "footer footer footer";
     }
 
     div#nav {
@@ -235,6 +228,7 @@ footer li {
         grid-template-areas: 
         "branding menu contact";
         padding: 80px 0 0 0;
+        align-self: end;
     }
 
     section.title {
@@ -264,6 +258,7 @@ footer li {
 
     div#menu {
         grid-area: menu; 
-        justify-self: start;       
+        justify-self: start;
+        align-self: end;  
     }
 }
