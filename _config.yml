@@ -1,2 +1,3 @@
 baseurl: /TreeBranchWebsite
 exclude: ['README.md']
+permalink: pretty

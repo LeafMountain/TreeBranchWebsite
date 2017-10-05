@@ -2,31 +2,20 @@
 layout: default
 ---
 
-        <section class="title">
-            <h1>/ Latest from us</h1>
-        </section>
+<section class="title">
+    <h1>/ Latest from us</h1>
+</section>
 
-        <section class="content">
-            <section id="news">
-                <div class="separator"></div>
-                    
-                {% for post in site.posts %}
-                    <a href="{{site.baseurl}}{{post.url}}">
-                        <article style="background-image: url({{post.background}})">
-                            <h2>{{post.title}}</h2>
-                        </article>
-                    </a>
-                    <div class="separator"></div>
-                {% endfor %}
-
-                <!-- <div class="separator"></div>
-                
-                    <a href="update_template.html">
-                        <article style="background-image: url(./img/Bild_2.jpg)">
-                            <h2>UPDATE #1</h2>
-                        </article>
-                    </a>
-                    <div class="separator"></div> -->
-
-            </section>
-        </section>
+<section id="news">
+    <div class="separator"></div>
+        
+    {% for post in site.posts limit:3 %}
+        <a href="{{site.baseurl}}{{post.url}}">
+            <article style="background-image: url({{post.background}})">
+                <h2>{{post.title}}</h2>
+            </article>
+        </a>
+        <div class="separator"></div>
+    {% endfor %}
+    
+</section>

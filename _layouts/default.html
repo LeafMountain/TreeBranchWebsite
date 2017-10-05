@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <title>TREE BRANCH</title>
+    <title>TREE BRANCH {% if page.title %} | {{page.title}} {% endif %}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel=icon href=./img/icon.png sizes="16x16" type="image/png">
-    <meta name="description" content="bla bla">
+    <link rel=icon href={{site.baseurl}}/img/icon.png sizes="16x16" type="image/png">
+    <meta name="description" content="{{page.meta}}">
     <meta name="keywords" content="keyword, keyword">
-    <meta name="author" content="Alexander Lövberg">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css" />
+    <meta name="author" content="Tree Branch Studios">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css" />
 </head>
 
 <body>
@@ -19,36 +19,38 @@
                 <div id="nav">
 
                     <div id="branding">
-                        <img id="logo" src="./img/logo.png">
+                        <img id="logo" src="{{site.baseurl}}/img/logo.png">
                     </div>
 
                     <div id="menu">
                         <ul>
-                            <li><a id="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/index.html">Home</a></li>
-                            <li><a id="{% if page.url == '/about.html' %}current{% endif %}" href="{{site.baseurl}}/about.html">About</a></li>
-                            <li><a id="{% if page.url == '/games.html' %}current{% endif %}" href="{{site.baseurl}}/games.html">Games</a></li>
+                            <li><a id="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+                            <li><a id="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+                            <li><a id="{% if page.url == '/games/' %}current{% endif %}" href="{{site.baseurl}}/games/">Games</a></li>
                         </ul>
                     </div>
 
                     <div id="contact">
                         <ul>
-                            <li><a href="twitter.com"><img id="contact" src="./img/twit_ico.png" onmouseover="this.src='./img/twitb_ico.png';" onmouseout="this.src='./img/twit_ico.png';"></a></li>
-                            <li><a href="twitter.com"><img id="contact" src="./img/insta_ico.png"></a></li>
-                            <li><a href="twitter.com"><img id="contact" src="./img/fb_ico.png"></a></li>
-                            <li><a href="twitter.com"><img id="contact" src="./img/youtube_ico.png"></a></li>
+                                <li><a href="https://twitter.com/TreeBranchBird"><img id="contact" src="{{site.baseurl}}/img/twit_ico.png" onmouseover="this.src='{{site.baseurl}}/img/twitb_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/twit_ico.png';"></a></li>
+                                <li><a href="https://www.instagram.com/treebranchstudios/"><img id="contact" src="{{site.baseurl}}/img/insta_ico.png" onmouseover="this.src='{{site.baseurl}}/img/instab_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/insta_ico.png';"></a></li>
+                                <li><a href="https://www.facebook.com/TreeBranchStudios"><img id="contact" src="{{site.baseurl}}/img/fb_ico.png" onmouseover="this.src='{{site.baseurl}}/img/fbb_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/fb_ico.png';"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCc_Th1vyKhOyPmNO2pGmX5w/featured"><img id="contact" src="{{site.baseurl}}/img/youtube_ico.png" onmouseover="this.src='{{site.baseurl}}/img/youtubeb_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/youtube_ico.png';"></a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </section>
 
-        {{content}}
+        <section class="content">
+            {{content}}
+        </section>
 
         <section class="footer">
                 <footer>
                     <ul>
                         <li>Copyright &copy; 2017 Tree Branch</li>
-                        <li>treebranch@treebranch.com</li>
+                        <li>contact@treebranchstudios.com</li>
                     </ul>
                 </footer>
             </section>

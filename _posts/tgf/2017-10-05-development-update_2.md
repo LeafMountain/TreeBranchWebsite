@@ -1,0 +1,12 @@
+---
+layout: post
+title: Test 2
+background: ./img/Bild_1.png
+meta: description
+source: url
+category: tgf
+---
+
+Currently we are working on our Tactical Turn-based RPG “The Good Few”. An epic tale of a group of former sellswords struggling to survive in a wartorn fantasy world. We currently have a few basic playable classes. 
+
+hej hej
