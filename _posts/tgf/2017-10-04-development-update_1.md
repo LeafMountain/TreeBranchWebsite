@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'UPDATE #1'
-background: /img/Bild_1.png
+background: ./img/Bild_2.png
 meta: description
 category: tgf
 ---
