@@ -65,7 +65,7 @@ section.header a {
     font-family: 'Segoeuib';
 }
 
-section.header a#current {
+section.header #current {
     color: #017e82;
 }
 
