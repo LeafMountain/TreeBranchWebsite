@@ -9,7 +9,28 @@
     <meta name="description" content="bla bla">
     <meta name="keywords" content="keyword, keyword">
     <meta name="author" content="Alexander Lövberg">
+
     <link rel="stylesheet" href="./css/style.css" />
+    
+    <style>
+        /* @media (min-width: 1200px) {
+            #postGrid {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+                
+            }
+        } */
+
+        #postGrid {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            /* grid-template-areas: 
+            "dark header dark2" 
+            ". title ." 
+            ". content ." 
+            "footer footer footer"; */
+        }
+    </style>
 </head>
 
 <body>
@@ -50,9 +71,15 @@
             <section id="news">
 
                 <div class="separator"></div>
-                <p>Here's an update!</p>
+                <div id="postGrid">
+                    <p>Here's an update!</p>
+                    <p>Here's an update!</p>
+                    <p>Here's an update!</p>
+                    <p>Here's an update!</p>
+                </div>
                 <div class="separator"></div>
                 
+
                
             </section>
         </section>
@@ -61,7 +88,7 @@
             <footer>
                 <ul>
                     <li>Copyright &copy; 2017 Tree Branch</li>
-                    <li>treebranch@treebranch.com</li>
+                    <li>contact@treebranchstudios.com</li>
                 </ul>
             </footer>
         </section>
