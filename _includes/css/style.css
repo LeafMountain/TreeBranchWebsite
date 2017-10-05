@@ -135,6 +135,7 @@ section.content {
     grid-area: content;
     min-height: 700px;
     font-size: 15px;
+    overflow: hidden;
 }
 
 section.footer {
