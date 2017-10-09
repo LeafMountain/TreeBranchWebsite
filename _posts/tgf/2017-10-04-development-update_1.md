@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 'UPDATE #1'
 background: ./img/Bild_2.png
@@ -35,4 +35,7 @@ Currently we are working on
 <br>
 Check out some of our concept art and models. We'll keep posting images in the coming weeks of early artwork and screenshots, so keep an eye on our social media channels.
 
-|!["hej"]({{site.baseurl}}/img/update_1/Bild_2.jpg)|!["hej"]({{site.baseurl}}/img/update_1/Bild_2.jpg)|!["hej"]({{site.baseurl}}/img/update_1/Bild_2.jpg)|!["hej"]({{site.baseurl}}/img/update_1/Bild_2.jpg)|
+{% for img in {{site.baseurl}}/img/update_1 %}
+    !["hej"](img)
+    
+{% endfor %}

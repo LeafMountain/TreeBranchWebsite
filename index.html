@@ -9,7 +9,7 @@ layout: default
 <section id="news">
     <div class="separator"></div>
         
-    {% for post in site.posts %}
+    {% for post in site.posts limit:3 %}
         <a href="{{site.baseurl}}{{post.url}}">
             <article style="background-image: url({{post.background}})">
                 <h2>{{post.title}}</h2>
