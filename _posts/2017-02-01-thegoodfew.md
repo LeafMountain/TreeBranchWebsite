@@ -7,7 +7,7 @@ meta: description
 category: tgf
 ---
 
- <center><img id="logo" src="{{site.baseurl}}/img/logo.png"><center>
+<center><img id="logo" src="./img/tgf_logo.png"><center>
 
 <br>
 <br>
