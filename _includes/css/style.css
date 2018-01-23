@@ -270,4 +270,9 @@ footer li {
         min-height: 700px;
         font-size: 20px;
     }
+
+	img#logooverlay {
+		height: 100%;
+		float: left;
+	}
 }

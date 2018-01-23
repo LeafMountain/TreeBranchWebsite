@@ -12,8 +12,8 @@ layout: default
     {% for post in site.posts limit:3 %}
         <a href="{{site.baseurl}}{{post.url}}">
             <article style="background-image: url({{post.background}})">
+                <img id="logooverlay" src="{{post.logo}} alt="logo"/>
                 <h2>{{post.title}}</h2>
-            </article>
         </a>
         <div class="separator"></div>
     {% endfor %}
