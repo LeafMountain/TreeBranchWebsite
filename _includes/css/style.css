@@ -10,8 +10,8 @@
 }
 
 @font-face {
-    font-family: "YuGothL";
-    src: url("../font/YuGothL.ttc");
+    font-family: "Lato-Hairline";
+    src: url("../font/Lato-Hairline.ttf");
     /* src: 
         url("css/fonts/Harabara.woff") format("woff"),
         url("css/fonts/Harabara.otf") format("opentype"),
@@ -24,7 +24,7 @@
     color: white;
     padding: 0;
     margin: 0;
-    font-family: 'YuGothL', Arial, sans-serif;
+    font-family: 'Lato-Hairline', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
 }
