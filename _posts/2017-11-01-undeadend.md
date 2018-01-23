@@ -2,6 +2,7 @@
 layout: post
 title: 'UNDEAD END'
 background: ./img/WebsiteGameButtonUE.png
+logo: ./img/tgf_logo.png
 meta: description
 category: ue
 ---

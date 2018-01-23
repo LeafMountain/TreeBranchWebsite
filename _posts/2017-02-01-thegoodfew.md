@@ -2,6 +2,7 @@
 layout: post
 title: 'THE GOOD FEW'
 background: ./img/WebsiteGameButtonTGF.png
+logo: ./img/tgf_logo.png
 meta: description
 category: tgf
 ---
