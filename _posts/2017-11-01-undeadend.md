@@ -2,36 +2,17 @@
 layout: post
 title: 'UNDEAD END'
 background: ./img/WebsiteGameButtonUE.png
-logo: ./img/tgf_logo.png
+logo: ./img/ue_logo.png
 meta: description
 category: ue
 ---
 
-Currently we are working on our Tactical Turn-based RPG “The Good Few”. An epic tale of a group of former sellswords struggling to survive in a wartorn fantasy world. We currently have a few basic playable classes.
 <br>
 <br>
-Acolyte – A Healer class focused on keeping the party alive and offering buffs! <br>
-Apprentice – A magic-using class with focus on damage dealing and AoE! <br>
-Archer – Bow and Arrow, all you ever need! <br>
-Scout – With dagger in hand this class will dash out massive melee damage! <br>
-Warrior – A melee class focused on shield and sword, able to deal and take a punch in equal measure! <br>
-Our heroes are Alena Myst, Gramps, Jaques, Milo, Olivia and Wilburr. <br>
-<br>
-Check out our first trailer! 
-<br>
-<br>
-https://www.youtube.com/watch?v=674sdlZJsLI 
-<br>
-<br>
-Currently we are working on 
-* Producing additional Concept Art 
-* Remaking the mesh for human characters (animation optimisation) 
-* New Rigs and animations 
-* New 3d Props 
-* Level planning 
-* Item implementation 
-* Experience and level system 
-* AI – Pathfinding optimisation 
+
+Undead End (Project Name) is a co-op multiplayer top-down survival shooter set in a dark post-apocalyptic zombie ridden world.
+
+Your goal as survivors is simply surviving, you cannot stay in place or you will be swarmed by the unliving hordes roaming the city. You have to find somewhere safe to hold up and regroup, to plan your way out of the city and consider places that could still hold useful items or weapons vital to the perseverance of your group.
 <br>
 <br>
 Check out some of our concept art and models. We'll keep posting images in the coming weeks of early artwork and screenshots, so keep an eye on our social media channels.
