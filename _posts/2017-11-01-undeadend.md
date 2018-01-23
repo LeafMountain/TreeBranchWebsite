@@ -3,7 +3,7 @@ layout: post
 title: 'UNDEAD END'
 background: ./img/Bild_2.png
 meta: description
-category: tgf
+category: ue
 ---
 
 Currently we are working on our Tactical Turn-based RPG “The Good Few”. An epic tale of a group of former sellswords struggling to survive in a wartorn fantasy world. We currently have a few basic playable classes.

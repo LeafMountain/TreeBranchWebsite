@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'UPDATE #1'
+title: 'THE GOOD FEW'
 background: ./img/Bild_2.png
 meta: description
 category: tgf
