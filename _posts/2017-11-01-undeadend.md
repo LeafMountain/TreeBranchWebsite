@@ -7,6 +7,8 @@ meta: description
 category: ue
 ---
 
+ <center><img id="logo" src="{{site.baseurl}}/img/logo.png"><center>
+
 <br>
 <br>
 
