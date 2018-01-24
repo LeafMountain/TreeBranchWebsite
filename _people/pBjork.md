@@ -1,6 +1,6 @@
 ---
 logo: /img/tgf_logo.png
-title: 'Alexander Lövberg'
+title: 'Patrik Björk'
 ---
 
 test test

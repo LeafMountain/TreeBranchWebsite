@@ -3,10 +3,10 @@ exclude: ['README.md']
 permalink: pretty
 
 collections:
+  people:
+    output: true
+    permalink: /people/:path/
+
   games:
     output: true
     permalink: /games/:path/
-
-    people:
-      output: true
-      permalink: /people/:path/
