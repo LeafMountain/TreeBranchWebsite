@@ -1,0 +1,39 @@
+#showcase {
+    display: grid;
+    grid-gap: 25px;
+}
+
+#showcase article {
+    position: relative;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    vertical-align: bottom;
+}
+
+#showcase article h2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 55px;
+    padding: 0;
+    float: right;
+}
+
+#showcase a {
+    color: white;
+    text-decoration: none;
+}
+
+#games article {
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase #logo {
+    height: 100%;
+}

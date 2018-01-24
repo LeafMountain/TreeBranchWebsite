@@ -1,0 +1,96 @@
+header {
+    background-color: #171717;
+    grid-area: header;
+    padding: 0;
+    margin: 0;
+    padding-top: 105px;
+    margin-bottom: 10px;
+    /* height: 35px; */
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoeuib';
+}
+
+header #current {
+    color: #017e82;
+}
+
+header a:hover {
+    color: white;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+/* Navigation */
+header nav {
+    display: grid;
+    grid-template-columns: 190px 1fr 250px;
+    grid-template-areas: "branding menu contact";
+}
+
+div#branding{
+    grid-area: branding;
+    background: teal;
+    justify-self: start;
+}
+
+div#branding img {
+    position: absolute;
+    top: 39px;
+    height: 190px;
+    width: 190px;
+    
+    margin: 0;
+    padding: 0;
+}
+
+div#menu {
+    grid-area: menu;
+    justify-self: start;
+    min-width: 160px;
+    /* background: black; */
+}
+
+/* Contact */
+
+div#contact {
+    grid-area: contact;
+    justify-self: end;
+}
+
+div#contact img {
+    height: 30px;
+    widows: 30px;
+}
+
+a#twitter:hover {
+    height: 1000px;
+}
+
+header div#separator {
+    padding: 0px;
+    border-bottom: white 10px solid;
+    width: 95%;
+    float: right;
+}
+
+@media (max-width: 768px) {
+    /* header nav {
+        grid-template-columns: 190px 1fr 1fr;
+        grid-template-areas:
+        "branding menu"
+        "branding menu";
+    }
+    
+    div#menu {
+        justify-self: end;
+        float: right;
+    } */
+}

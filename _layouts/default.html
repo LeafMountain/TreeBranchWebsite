@@ -13,50 +13,16 @@
 </head>
 
 <body>
-    <section class="grid">
-        <section class="header">
-            <nav>
-                <div id="nav">
+    <header>
+        {% include header.html %}
+    </header>
 
-                    <div id="branding">
-                        <img id="logo" src="{{site.baseurl}}/img/logo.png">
-                    </div>
+    <section class="content">
+        {{content}}
+    </section>
 
-                    <div id="menu">
-                        <ul>
-                            <li><a id="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
-                            <li><a id="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="contact">
-                        <ul>
-                                <li><a href="https://twitter.com/TreeBranchBird"><img id="contact" src="{{site.baseurl}}/img/twit_ico.png" onmouseover="this.src='{{site.baseurl}}/img/twitb_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/twit_ico.png';"></a></li>
-                                <li><a href="https://www.instagram.com/treebranchstudios/"><img id="contact" src="{{site.baseurl}}/img/insta_ico.png" onmouseover="this.src='{{site.baseurl}}/img/instab_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/insta_ico.png';"></a></li>
-                                <li><a href="https://www.facebook.com/TreeBranchStudios"><img id="contact" src="{{site.baseurl}}/img/fb_ico.png" onmouseover="this.src='{{site.baseurl}}/img/fbb_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/fb_ico.png';"></a></li>
-                                <li><a href="https://www.youtube.com/channel/UCc_Th1vyKhOyPmNO2pGmX5w/featured"><img id="contact" src="{{site.baseurl}}/img/youtube_ico.png" onmouseover="this.src='{{site.baseurl}}/img/youtubeb_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/youtube_ico.png';"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
-
-        <section class="content">
-            {{content}}
-        </section>
-
-        <section class="footer">
-                <footer>
-                    <ul>
-                        <li>Copyright &copy; 2017 Tree Branch</li>
-                        <li>contact@treebranchstudios.com</li>
-                    </ul>
-                </footer>
-            </section>
-    
-            <section class="dark"></section>
-            <section class="dark2"></section>
-        </section>
-    
-    </body>
+    <footer>
+        {% include footer.html %}
+    </footer>
+</body>
 </html>

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Segoeuib";
+    src: url("../font/segoeuib.ttf");
+    /* src: 
+    url("css/fonts/Harabara.woff") format("woff"),
+    url("css/fonts/Harabara.otf") format("opentype"),
+    url("css/fonts/Harabara.svg#filename") format("svg"); */
+}
+
+@font-face {
+    font-family: "Lato-Hairline";
+    src: url("../font/Lato-Hairline.ttf");
+    /* src: 
+        url("css/fonts/Harabara.woff") format("woff"),
+        url("css/fonts/Harabara.otf") format("opentype"),
+        url("css/fonts/Harabara.svg#filename") format("svg"); */
+}

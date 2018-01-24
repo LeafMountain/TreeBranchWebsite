@@ -1,0 +1,9 @@
+body {
+    background: #282828;
+    display: grid;
+    grid-template-rows: 150px auto 40px;
+    grid-template-areas: "header" "content" "footer";
+
+    width: 100vw;
+    height: 100vh;
+}
