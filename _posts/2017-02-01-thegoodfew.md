@@ -1,15 +1,11 @@
 ---
 layout: post
 title: 'THE GOOD FEW'
-background: ./img/WebsiteGameButtonTGF.png
-logo: ./img/tgf_logo.png
+background: /img/WebsiteGameButtonTGF.png
+logo: /img/tgf_logo.png
 meta: description
 category: tgf
 ---
-
-<center>
-	<img id="tgf_logo" src="./img/tgf_logo.png">
-<center>
 
 <br>
 <br>

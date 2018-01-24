@@ -1,15 +1,11 @@
 ---
 layout: post
 title: 'UNDEAD END'
-background: ./img/WebsiteGameButtonUE.png
-logo: ./img/ue_logo.png
+background: /img/WebsiteGameButtonUE.png
+logo: /img/ue_logo.png
 meta: description
 category: ue
 ---
-
-<center>
-	<img id="ue_logo" src="./img/ue_logo.png">
-<center>
 
 <br>
 <br>
