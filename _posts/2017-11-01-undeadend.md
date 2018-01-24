@@ -20,9 +20,15 @@ Your goal as survivors is simply surviving, you cannot stay in place or you will
 
 In its current iteration (early alpha) it mostly has basic functionality such as different weapons, an entire city level shrouded in darkness to explore and survive.
 
+<br>
+
     <div class="separator"></div>
 
+<br>
+
 The graphical vision of the game was initially heavily inspired by the grim dark artstyle of Darkest Dungeon, Borderlands and The Walking Dead Comics, but as work progressed it evolved into it's own style using less saturated shades of gradient colours combined with high-contrast shadowing.
+
+<br>
 
     <div class="separator"></div>
 
