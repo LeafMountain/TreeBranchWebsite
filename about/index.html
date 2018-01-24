@@ -18,4 +18,12 @@ meta: description
         </p>
         <div class="separator"></div>
 
+        <center>
+                <h1>Developers</h1>
+        </center>
+
+        {% for post in site.people %}
+                <h1>{{post.title}}</h1>
+        {% endfor %}
+
 </div>
