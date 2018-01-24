@@ -33,7 +33,6 @@ The graphical vision of the game was initially heavily inspired by the grim dark
     <div class="separator"></div>
 
 <br>
-<br>
 
 Check out some of our concept art and models. We'll keep posting images in the coming weeks of early artwork and screenshots, so keep an eye on our social media channels.
 

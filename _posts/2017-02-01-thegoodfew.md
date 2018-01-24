@@ -37,7 +37,6 @@ We wanted to theme up the various factions within the game with different kinds 
     <div class="separator"></div>
 
 <br>
-<br>
 
 Check out some of our concept art and models. We'll keep posting images in the coming weeks of early artwork and screenshots, so keep an eye on our social media channels.
 
