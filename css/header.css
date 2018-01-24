@@ -55,7 +55,6 @@ div#menu {
     grid-area: menu;
     justify-self: start;
     min-width: 160px;
-    /* background: black; */
 }
 
 /* Contact */

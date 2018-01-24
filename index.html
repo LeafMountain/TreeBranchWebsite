@@ -11,8 +11,8 @@ layout: default
         
     {% for post in site.posts limit:3 %}
         <a href="{{site.baseurl}}{{post.url}}">
-            <article style="background-image: url({{post.background}})">
-                <img id="logo" src="{{post.logo}}" alt="logo"/>
+            <article style="background-image: url({{site.baseurl}}{{post.background}})">
+                <img id="logo" src="{{site.baseurl}}{{post.logo}}" alt="logo"/>
                 <h2>{{post.title}}</h2>
             </article>
         </a>
