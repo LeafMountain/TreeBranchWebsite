@@ -13,18 +13,10 @@ layout: default
 {{content}}
 
 {% for post in site.pages %}
-{{page.project}} <b>{{post.project}}</b>
-
-        {% if post.type == "info" %}
-
-
-                {% if page.project == post.project %}
-        
-
-                        <h1>{{post.title}}</h1>
-                        <p>{{post.content}}</p>
-
-                {% endif %}
+        {% if post.type == "info" and page.project == post.project %}
+                <div class="separator"></div>
+                <center><h1>{{post.title}}</h1></center>
+                <p>{{post.content}}</p>
         
         {% endif %}
 
