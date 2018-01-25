@@ -2,7 +2,8 @@
 logo: /img/people/Chris_Photograph.png
 title: 'Christian Ek'
 ---
-
-test test
-
-##test
+<br>
+Christian is cool but crude.
+<br>
+Gimmie a break!.
+<br>
