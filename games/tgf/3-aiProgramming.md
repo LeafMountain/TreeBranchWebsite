@@ -1,7 +1,7 @@
 ---
 project: tgf
 type: info
-title: 'Gameplay Programming'
+title: 'AI Programming'
 contributors: lovberg
 ---
 

@@ -7,7 +7,7 @@ layout: default
 <h1 class="title">/ Home</h1>
 
 <section id="showcase">
-    <div class="separator"></div>
+    <hr>
         
     {% for post in site.games %}
         {% if post.type == 'overview' %}
@@ -17,7 +17,7 @@ layout: default
                     <h2>{{post.title}}</h2>
                 </article>
             </a>
-            <div class="separator"></div>
+            <hr>
         {% endif %}
     {% endfor %}
     
