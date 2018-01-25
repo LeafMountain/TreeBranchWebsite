@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 project: tgf
 type: overview
 title: 'THE GOOD FEW'

@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: project
+project: ue
 type: overview
 title: 'UNDEAD END'
 background: /img/WebsiteGameButtonUE.png

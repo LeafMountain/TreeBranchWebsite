@@ -1,0 +1,20 @@
+section#project div#overview{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "logo desc"
+    "nav desc";
+    grid-gap: 20px;
+}
+
+section#project div#projectlogo{
+    grid-area: logo;
+}
+
+section#project nav#project{
+    grid-area: nav;
+}
+
+section#project div#projectdescription{
+    grid-area: desc;
+}
