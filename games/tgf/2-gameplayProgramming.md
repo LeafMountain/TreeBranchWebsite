@@ -1,5 +1,5 @@
 ---
-project: tgf
+project: 'tgf'
 type: info
 title: 'Gameplay Programming'
 contributors: lovberg

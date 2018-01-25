@@ -7,14 +7,14 @@ title: 'Credits'
 DESIGN AND PROGRAMMING
 <br>
 John Michael Bueno - Additional coding and Writing
-Alexander Lövberg - Lead Programmer
+Alexander Lovberg - Lead Programmer
 <br>
 GRAPHICS
 <br>
-Patrik Björk - Lead Artist
+Patrik Bjork - Lead Artist
 Christian Ek - Rigging, Animation and Writing
-Cecilia Jensgård - Environment art
-Nora Cossa Åkesson - Character and Environmental art
+Cecilia Jensgard - Environment art
+Nora Cossa Akesson - Character and Environmental art
 <br>
 SFX AND MUSIC
 <br>

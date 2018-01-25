@@ -1,6 +1,6 @@
 section#project div#overview{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 300px auto;
     grid-template-areas: 
     "logo desc"
     "nav desc";
@@ -9,6 +9,11 @@ section#project div#overview{
 
 section#project div#projectlogo{
     grid-area: logo;
+    justify-self: start;
+}
+
+section#project div#projectlogo img{
+    width: 100%;
 }
 
 section#project nav#project{
@@ -17,4 +22,5 @@ section#project nav#project{
 
 section#project div#projectdescription{
     grid-area: desc;
+    width: 100%;
 }

@@ -30,7 +30,11 @@ meta: description
                         <div id="{% cycle 'left', 'right' %}">
                                 <img id="portrait" src="{{site.baseurl}}{{post.logo}}">
                                 <div id="description">
+                                        <a href="{{site.baseurl}}{{post.url}}">
+                                
                                         <h1>{{post.title}}</h1>
+                                        </a>
+                
                                         <p>{{post.content}}</p>
                                 </div>
                         </div>
