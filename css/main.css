@@ -11,3 +11,5 @@
 {% include_relative game.css %}
 {% include_relative header.css %}
 {% include_relative footer.css %}
+{% include_relative about.css %}
+

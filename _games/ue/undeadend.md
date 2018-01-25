@@ -1,5 +1,6 @@
 ---
 layout: post
+type: overview
 title: 'UNDEAD END'
 background: /img/WebsiteGameButtonUE.png
 logo: /img/ue_logo.png

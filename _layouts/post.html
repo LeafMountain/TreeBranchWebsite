@@ -12,4 +12,22 @@ layout: default
 
 {{content}}
 
+{% for post in site.pages %}
+{{page.project}} <b>{{post.project}}</b>
+
+        {% if post.type == "info" %}
+
+
+                {% if page.project == post.project %}
+        
+
+                        <h1>{{post.title}}</h1>
+                        <p>{{post.content}}</p>
+
+                {% endif %}
+        
+        {% endif %}
+
+{% endfor %}
+
 </div>

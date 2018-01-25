@@ -9,6 +9,10 @@
     font-weight: normal;
 }
 
+html {
+    background: #171717;
+}
+
 ul {
     padding: 0;
     margin: 0;

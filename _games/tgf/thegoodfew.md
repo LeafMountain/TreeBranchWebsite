@@ -1,5 +1,7 @@
 ---
 layout: post
+project: tgf
+type: overview
 title: 'THE GOOD FEW'
 background: /img/WebsiteGameButtonTGF.png
 logo: /img/tgf_logo.png

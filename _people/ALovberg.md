@@ -1,8 +1,0 @@
----
-logo: /img/tgf_logo.png
-title: 'Alexander Lövberg'
----
-
-test test
-
-##test

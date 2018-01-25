@@ -1,5 +1,5 @@
 ---
-logo: /img/tgf_logo.png
+logo: /img/people/Chris_Photograph.png
 title: 'Christian Ek'
 ---
 
