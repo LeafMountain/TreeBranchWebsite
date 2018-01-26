@@ -7,14 +7,12 @@ categories:
 ---
 ### DESIGN AND PROGRAMMING
 <br>
-<br>
 John Michael Bueno - Additional coding and Writing
 <br>
 Alexander Lovberg - Lead Programmer
 <br>
 <br>
 ### GRAPHICS
-<br>
 <br>
 Patrik Bjork - Lead Artist
 <br>
@@ -26,7 +24,6 @@ Nora Cossa Akesson - Character and Environmental art
 <br>
 <br>
 ### SFX AND MUSIC
-<br>
 <br>
 Mark Jones
 <br>
