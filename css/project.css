@@ -34,3 +34,8 @@ section#project li{
 section#project a {
     font-size: 30px;
 }
+
+section#project li img{
+    width: 200px;
+    height: 100px;
+}

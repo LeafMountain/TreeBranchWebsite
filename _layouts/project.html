@@ -32,6 +32,15 @@ layout: default
 
 </div>
 
+<center>
+        <h2>Media</h2>
+<li>
+        {% for img in page.images %}
+        <img src="{{site.baseurl}}{{img}}">
+        {% endfor %}
+</li>
+</center>
+
 {% for post in site.projects %}
         {% if post.categories contains page.project and post.type == "info" %}
                 <div id="{{post.title}}">

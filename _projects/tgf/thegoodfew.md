@@ -6,7 +6,15 @@ title: 'THE GOOD FEW'
 background: /img/WebsiteGameButtonTGF.png
 logo: /img/tgf_logo.png
 meta: description
-category: tgf
+categories: tgf
+images:
+    - /img/tgf_logo.png
+    - /img/ue_logo.png
+    - /img/tgf_logo.png
+    - /img/ue_logo.png
+    - /img/tgf_logo.png
+    - /img/ue_logo.png
+    
 ---
 
 The Good Few is a colourful turn-based role-playing game sprinkled with city-building elements and resource management.
