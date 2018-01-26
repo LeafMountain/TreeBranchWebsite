@@ -29,6 +29,12 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* Links */
 a {
     text-decoration: none;    
@@ -37,4 +43,14 @@ a {
 
 a:hover {
     color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
 }
