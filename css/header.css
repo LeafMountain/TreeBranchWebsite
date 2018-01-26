@@ -1,10 +1,16 @@
 header {
-    background-color: #171717;
+    position: relative;
     grid-area: header;
+
     padding: 0;
     margin: 0;
-    padding-top: 105px;
-    margin-bottom: 10px;
+    /* padding-top: 105px; */
+    /* margin-bottom: 10px; */
+}
+
+header div#top{
+    background: var(--secondary-bg-color);
+    height: 140px;
 }
 
 header a {
@@ -32,11 +38,12 @@ header nav {
     display: grid;
     grid-template-columns: 190px 1fr 250px;
     grid-template-areas: "branding menu contact";
+    bottom: 0px;
+    padding-top: 105px;
 }
 
 div#branding{
     grid-area: branding;
-    background: teal;
     justify-self: start;
 }
 

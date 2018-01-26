@@ -1,14 +1,11 @@
 ---
 layout: default
+title: home
 ---
 
 <div id="wrapper">
         
-<h1 class="title">/ Home</h1>
-
-<section id="showcase">
-    <hr>
-        
+<section id="showcase">        
     {% for post in site.projects %}
         {% if post.type == 'overview' %}
             <a href="{{site.baseurl}}{{post.url}}">
