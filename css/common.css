@@ -1,12 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-    color: white;
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato-Hairline', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
+html {
+    background: var(--secondary-bg-color);
 }
 
 ul {
@@ -14,21 +7,17 @@ ul {
     margin: 0;
 }
 
-div.separator {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: #ffd452 5px solid;
+hr {
+    margin: 10px auto 10px auto;
+    border: #ffd452 2px solid;
     width: 80%;
-    margin: auto;
+    padding: 0px;
 }
 
 h1.title {
-    /* grid-area: title; */
     text-transform: uppercase;
     font-weight: normal;
     padding: 0;
     margin-left: 200px;
-    /* margin-right: 40%; */
-    /* justify-self: end; */
     font-size: 60px;
 }

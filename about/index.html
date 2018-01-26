@@ -5,25 +5,40 @@ meta: description
 ---
 
 <div id="wrapper">
-        <h1 class="title">/ About</h1>
+        <div id="about">
+                <h1 class="title">/ About</h1>
 
-        <div class="separator" /></div>
-        <p>
-                TREE BRANCH was originally founded in 2016 as Combine Studios. Then consisting of a group of likeminded swedish video game development students, from the ashes of that group of indie upstarts sprouted the seeds for TREE BRANCH.
-        </p>
-        <br>
-        <p>
-                Our mission is to bring back the old-school tactical JRPG genre to the modern day world, integrating new
-                ways to play while sticking to the core concepts that worked back in the day.
-        </p>
-        <div class="separator"></div>
+                <hr>
+                <p>
+                        TREE BRANCH was originally founded in 2016 as Combine Studios. Then consisting of a group of likeminded swedish video game development students, from the ashes of that group of indie upstarts sprouted the seeds for TREE BRANCH.
+                </p>
+                <br>
+                <p>
+                        Our mission is to bring back the old-school tactical JRPG genre to the modern day world, integrating new
+                        ways to play while sticking to the core concepts that worked back in the day.
+                </p>
+                <hr>
+        </div>
 
-        <center>
-                <h1>Developers</h1>
-        </center>
+        <section id="developers">
+                <center>
+                        <h1 id="title">Developers</h1>
+                </center>
 
-        {% for post in site.people %}
-                <h1>{{post.title}}</h1>
-        {% endfor %}
-
+                {% for post in site.people %}
+                <div id="person">
+                        <div id="{% cycle 'left', 'right' %}">
+                                <img id="portrait" src="{{site.baseurl}}{{post.logo}}">
+                                <div id="description">
+                                        <a href="{{site.baseurl}}{{post.url}}">
+                                
+                                        <h2>{{post.title}}</h2>
+                                        </a>
+                
+                                        <p>{{post.content}}</p>
+                                </div>
+                        </div>
+                </div>
+                {% endfor %}
+        </section>
 </div>

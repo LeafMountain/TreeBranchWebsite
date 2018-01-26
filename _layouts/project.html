@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div id="wrapper">
+
+<h1 class="title">/ {{page.title}}</h1>
+
+<section id="project">
+        <div id="overview">
+                <div id="projectlogo">
+                        <center>
+                                <img src="{{site.baseurl}}{{page.logo}}">
+                        </center>
+                </div>
+                <div id="projectdescription">
+                        {{content}}                                
+                </div>
+                <nav id="project">
+                        <hr>
+                        <center>
+                        <ul>
+                                <li>
+                                        {% for post in site.projects %}
+                                        {% if post.categories contains page.project and post.type == "info" %}
+                                                <a href="#{{post.title}}">{{post.title}}</a> - 
+                                        {% endif %}
+                                        {% endfor %}
+                                </li>
+                        </ul>
+                        </center>
+                        <hr>
+                </nav>
+
+</div>
+
+{% for post in site.projects %}
+        {% if post.categories contains page.project and post.type == "info" %}
+
+                <div id="{{post.title}}">
+                        <center><h2>{{post.title}}</h2></center>
+                        <p>{{post.content}}</p>
+                </div>
+                <hr>                
+        {% endif %}
+{% endfor %}
+
+</section>
+
+</div>

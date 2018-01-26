@@ -1,0 +1,42 @@
+section#developers {
+    grid-gap: 10px;
+    display: grid;
+}
+
+section#developers div#person {
+    /* background: var(--secondary-bg-color); */
+}
+
+section#developers div#left {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-areas: "port desc";
+    grid-gap: 10px;
+}
+
+section#developers div#right {
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-template-areas: "desc port";
+    grid-gap: 10px;
+    
+}
+
+section#developers img#portrait {
+    grid-area: port;
+    width: 300px;
+}
+
+section#developers div#description {
+    grid-area: desc;
+    padding: 10px;
+}
+
+/* Text */
+
+section#developers h1#title {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+

@@ -7,16 +7,18 @@ layout: default
 <h1 class="title">/ Home</h1>
 
 <section id="showcase">
-    <div class="separator"></div>
+    <hr>
         
-    {% for post in site.games limit:3 %}
-        <a href="{{site.baseurl}}{{post.url}}">
-            <article style="background-image: url({{site.baseurl}}{{post.background}})">
-                <img id="logo" src="{{site.baseurl}}{{post.logo}}" alt="logo"/>
-                <h2>{{post.title}}</h2>
-            </article>
-        </a>
-        <div class="separator"></div>
+    {% for post in site.projects %}
+        {% if post.type == 'overview' %}
+            <a href="{{site.baseurl}}{{post.url}}">
+                <article style="background-image: url({{site.baseurl}}{{post.background}})">
+                    <img id="logo" src="{{site.baseurl}}{{post.logo}}" alt="logo"/>
+                    <h2>{{post.title}}</h2>
+                </article>
+            </a>
+            <hr>
+        {% endif %}
     {% endfor %}
     
 </section>

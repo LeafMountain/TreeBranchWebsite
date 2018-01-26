@@ -7,6 +7,6 @@ collections:
     output: true
     permalink: /people/:path/
 
-  games:
+  projects:
     output: true
-    permalink: /games/:path/
+    permalink: /projects/:path/
