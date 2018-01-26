@@ -1,7 +1,7 @@
 body {
     background: var(--main-bg-color);
     display: grid;
-    grid-template-rows: 150px auto 40px;
+    grid-template-rows: 250px auto 40px;
     grid-template-areas: "header" "content" "footer";
 
     min-height: 100vh;
