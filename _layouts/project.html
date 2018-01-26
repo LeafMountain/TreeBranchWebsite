@@ -34,12 +34,13 @@ layout: default
 
 {% for post in site.projects %}
         {% if post.categories contains page.project and post.type == "info" %}
-
                 <div id="{{post.title}}">
                         <center><h2>{{post.title}}</h2></center>
                         <p>{{post.content}}</p>
                 </div>
-                <hr>                
+                <hr>
+                <br>
+                
         {% endif %}
 {% endfor %}
 

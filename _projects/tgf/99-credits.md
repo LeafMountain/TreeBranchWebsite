@@ -5,7 +5,7 @@ title: 'Credits'
 categories: 
     - tgf
 ---
-DESIGN AND PROGRAMMING
+### DESIGN AND PROGRAMMING
 <br>
 <br>
 John Michael Bueno - Additional coding and Writing
@@ -13,7 +13,7 @@ John Michael Bueno - Additional coding and Writing
 Alexander Lovberg - Lead Programmer
 <br>
 <br>
-GRAPHICS
+### GRAPHICS
 <br>
 <br>
 Patrik Bjork - Lead Artist
@@ -25,7 +25,7 @@ Cecilia Jensgard - Environment art
 Nora Cossa Akesson - Character and Environmental art
 <br>
 <br>
-SFX AND MUSIC
+### SFX AND MUSIC
 <br>
 <br>
 Mark Jones

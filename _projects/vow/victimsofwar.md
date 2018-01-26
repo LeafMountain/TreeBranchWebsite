@@ -15,7 +15,7 @@ Not every war is about soldiers and leaders.
 <br>
 Not every person has a gun. 
 <br>
-In Victims of War you as the player will be cast into a war ravaged city during the 90’s and relive their stories.
+In Victims of War you as the player will be cast into a war ravaged city during the 90's and relive their stories.
 <br>
 Through the eyes of the civilians you must survive, but at what price? 
 <br>
