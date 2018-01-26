@@ -3,11 +3,7 @@ layout: project
 project: vow
 type: overview
 title: 'Victims of War'
-<<<<<<< HEAD
-background:
-=======
-background: /img/WebsiteGameButtonVOW.png
->>>>>>> 689e46cc152cee4a7482b2d8f9efc5e1721af272
+background: /img/WebsiteGameButtonsVOW.png
 logo: /img/vow_logo.png
 meta: description
 category: vow
