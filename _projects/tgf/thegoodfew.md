@@ -9,9 +9,6 @@ meta: description
 category: tgf
 ---
 
-<br>
-<br>
-
 The Good Few is a colourful turn-based role-playing game sprinkled with city-building elements and resource management.
 
 The game revolves around the story of a band of mercenaries who get drawn into an unending conflict between a trinity of nations, each with its own reasons for bloodshed and conquest.
@@ -21,11 +18,3 @@ The game revolves around the story of a band of mercenaries who get drawn into a
 Featuring a class and sub-class-based levelling system, an upgradeable player hub, customizable equipment, exciting character development, a variety of different environments to explore, and obviously lots of enemies and bosses to defeat.
 <br>
 In its current iteration (early alpha) it mostly has basic functionality such as functional menus, mission select, battles, sfx, music.
-
-<br>
-<br>
-
-{% for img in {{site.baseurl}}/img/update_1 %}
-    !["hej"](img)
-    
-{% endfor %}

@@ -8,10 +8,6 @@ logo: /img/ue_logo.png
 meta: description
 category: ue
 ---
-
-<br>
-<br>
-
 Undead End (Project Name) is a co-op multiplayer top-down survival shooter set in a dark post-apocalyptic zombie ridden world.
 <br>
 Your goal as survivors is simply surviving, you cannot stay in place or you will be swarmed by the unliving hordes roaming the city. 
@@ -24,11 +20,3 @@ In its current iteration (early alpha) it mostly has basic functionality such as
 <br>
 <br>
 The graphical vision of the game was initially heavily inspired by the grim dark artstyle of Darkest Dungeon, Borderlands and The Walking Dead Comics, but as work progressed it evolved into it's own style using less saturated shades of gradient colours combined with high-contrast shadowing.
-
-<br>
-<br>
-
-{% for img in {{site.baseurl}}/img/update_1 %}
-    !["hej"](img)
-    
-{% endfor %}
