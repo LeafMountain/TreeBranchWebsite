@@ -9,7 +9,7 @@ layout: default
 <section id="showcase">
     <hr>
         
-    {% for post in site.games %}
+    {% for post in site.projects %}
         {% if post.type == 'overview' %}
             <a href="{{site.baseurl}}{{post.url}}">
                 <article style="background-image: url({{site.baseurl}}{{post.background}})">

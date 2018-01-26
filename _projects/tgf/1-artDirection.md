@@ -2,9 +2,10 @@
 project: tgf
 type: info
 title: 'Art Direction'
-contributors: bjork
+categories: 
+    - tgf
+    - bjork
 ---
-<br>
 The graphical vision of the game sprang out of the combination of available skill-set restrictions, 
 time constraints and also the colourful and simplistic artstyles of some classic turn-based RPG games 
 such as Final Fantasy Tactics or Fire Emblem.

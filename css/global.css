@@ -1,0 +1,40 @@
+* {
+    /* Variables */
+    --main-bg-color: #282828;
+    --secondary-bg-color: #171717;
+    --accent-color: #017e82;
+
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato-Hairline', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 0;
+    margin-left: 200px;
+    font-size: 60px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Links */
+a {
+    text-decoration: none;    
+    color: white;
+}
+
+a:hover {
+    color: var(--accent-color);
+}

@@ -1,10 +1,10 @@
 ---
 ---
 
+{% include_relative global.css %}
 {% include_relative fonts.css %}
+
 {% include_relative wrapper.css %}
-
-
 {% include_relative common.css %}
 {% include_relative body.css %}
 {% include_relative showcase.css %}

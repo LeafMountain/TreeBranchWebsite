@@ -1,6 +1,8 @@
 ---
+layout: project
 logo: /img/people/Pat_Photograph.png
 title: 'Patrik Björk'
+project: bjork
 ---
 <br>
 Patrik would define himself as a 3D/2D generalist and a graphics

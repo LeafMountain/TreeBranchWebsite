@@ -4,7 +4,7 @@ section#developers {
 }
 
 section#developers div#person {
-    background: #171717;
+    /* background: var(--secondary-bg-color); */
 }
 
 section#developers div#left {
@@ -36,17 +36,7 @@ section#developers div#description {
 
 section#developers h1#title {
     font-size: 50px;
-}
-
-section#developers h1 {
-    font-size: 30px;
-}
-
-section#developers h2 {
-    
-}
-
-section#developers p {
-    
+    margin: 0;
+    padding: 0;
 }
 

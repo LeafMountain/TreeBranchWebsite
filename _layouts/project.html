@@ -17,29 +17,31 @@ layout: default
                         {{content}}                                
                 </div>
                 <nav id="project">
-                        {% for post in site.pages %}
-                        {% if post.type == "info" and page.project == post.project %}
-
+                        <hr>
+                        <center>
                         <ul>
                                 <li>
-                                        <a href="#{{post.title}}">{{post.title}}</a>
+                                        {% for post in site.projects %}
+                                        {% if post.categories contains page.project and post.type == "info" %}
+                                                <a href="#{{post.title}}">{{post.title}}</a> - 
+                                        {% endif %}
+                                        {% endfor %}
                                 </li>
                         </ul>
-
-                        {% endif %}
-                        {% endfor %}
+                        </center>
+                        <hr>
                 </nav>
 
 </div>
 
-{% for post in site.pages %}
-        {% if post.type == "info" and page.project == post.project %}
-                <hr>
+{% for post in site.projects %}
+        {% if post.categories contains page.project and post.type == "info" %}
+
                 <div id="{{post.title}}">
-                        <center><h1>{{post.title}}</h1></center>
+                        <center><h2>{{post.title}}</h2></center>
                         <p>{{post.content}}</p>
                 </div>
-        
+                <hr>                
         {% endif %}
 {% endfor %}
 

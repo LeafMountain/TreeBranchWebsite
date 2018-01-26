@@ -3,7 +3,7 @@ section#project div#overview{
     grid-template-columns: 300px auto;
     grid-template-areas: 
     "logo desc"
-    "nav desc";
+    "nav nav";
     grid-gap: 20px;
 }
 
@@ -18,9 +18,18 @@ section#project div#projectlogo img{
 
 section#project nav#project{
     grid-area: nav;
+    width: 100%;
 }
 
 section#project div#projectdescription{
     grid-area: desc;
     width: 100%;
+}
+
+section#project li{
+    display: inline;
+}
+
+section#project a {
+    font-size: 30px;
 }

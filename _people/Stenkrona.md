@@ -1,6 +1,8 @@
 ---
+layout: project
 logo: /img/people/Axel_Photograph.png
 title: 'Axel Stenkrona'
+project: stenkrona
 ---
 <br>
 Axels game and level design is just as good as his walk is cool. 

@@ -2,6 +2,8 @@
 project: tgf
 type: info
 title: 'Credits'
+categories: 
+    - tgf
 ---
 <br>
 DESIGN AND PROGRAMMING

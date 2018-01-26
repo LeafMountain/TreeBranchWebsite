@@ -1,5 +1,5 @@
 body {
-    background: #282828;
+    background: var(--main-bg-color);
     display: grid;
     grid-template-rows: 150px auto 40px;
     grid-template-areas: "header" "content" "footer";
