@@ -8,7 +8,8 @@ project: lovberg
 linkedin: https://www.linkedin.com/in/alexanderlovberg/
 twitter: https://twitter.com/LeafMountain
 website:
-cv: data/AlexanderLovbergCV.pdf
+cv: /data/AlexanderLovbergCV.pdf
+mail: alexanderlovberg@treebranchstudios.com
 ---
 <br>
 Alexander does machines.

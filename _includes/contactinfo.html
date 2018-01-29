@@ -1,16 +1,20 @@
 
 {% if include.type.linkedin %}
-<li class="inline"><a href="{{include.type.linkedin}}" target="_blank"><img class="contactimg" src="{{site.baseurl}}/img/icons/linkin_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/linkinb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/linkin_ico-01.png';" alt="LinkedIn"></a></li>
+<li class="inline"><a href="{{include.type.linkedin}}" target="_blank" title="{{include.type.linkedin}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/linkin_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/linkinb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/linkin_ico-01.png';" alt="LinkedIn"></a></li>
 {% endif %}
 
 {% if include.type.twitter %}
-<li class="inline"><a href="{{include.type.twitter}}" target="_blank"><img class="contactimg" src="{{site.baseurl}}/img/icons/twit_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/twitb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/twit_ico-01.png';" alt="Twitter"></a></li>
+<li class="inline"><a href="{{include.type.twitter}}" target="_blank" title="{{include.type.twitter}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/twit_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/twitb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/twit_ico-01.png';" alt="Twitter"></a></li>
 {% endif %}
 
 {% if include.type.website %}
-<li class="inline"><a href="{{include.type.website}}" target="_blank"><img class="contactimg" src="{{site.baseurl}}/img/" onmouseover="this.src='{{site.baseurl}}/img/';" onmouseout="this.src='{{site.baseurl}}/img/';" alt="Website"></a></li>
+<li class="inline"><a href="{{include.type.website}}" target="_blank" title="{{include.type.website}}"><img class="contactimg" src="{{site.baseurl}}/img/" onmouseover="this.src='{{site.baseurl}}/img/';" onmouseout="this.src='{{site.baseurl}}/img/';" alt="Website"></a></li>
 {% endif %}
 
 {% if include.type.cv %}
-<li class="inline"><a href="{{site.baseurl}}{{include.type.cv}}" target="_blank"><img class="contactimg" src="{{site.baseurl}}/img/icons/cv_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/cvb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/cv_ico-01.png';" alt="CV"></a></li>
+<li class="inline"><a href="{{site.baseurl}}{{include.type.cv}}" target="_blank" title="CV"><img class="contactimg" src="{{site.baseurl}}/img/icons/cv_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/cvb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/cv_ico-01.png';" alt="CV"></a></li>
+{% endif %}
+
+{% if include.type.mail %}
+<li class="inline"><a href="mailto:{{include.type.mail}}" target="_top" title="{{include.type.mail}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/mail_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/mailb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/mail_ico-01.png';" alt="Mail"></a></li>
 {% endif %}
