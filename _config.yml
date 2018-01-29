@@ -1,4 +1,4 @@
-baseurl: /TreeBranchWebsite
+baseurl:
 exclude: ['README.md']
 permalink: pretty
 
