@@ -2,7 +2,7 @@
 layout: project
 project: tgf
 type: overview
-title: 'THE GOOD FEW'
+title: 'The Good Few'
 background: /img/WebsiteGameButtonTGF.png
 logo: /img/tgf_logo.png
 meta: description

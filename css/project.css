@@ -29,7 +29,7 @@ section#project nav#project{
 
 section#project div#projectdescription{
     grid-area: desc;
-    font-size: 20px;
+    font-size: 25px;
     /* align-self: center; */
 }
 
@@ -52,7 +52,11 @@ section#project #links {
     /* justify-self: center; */
 }
 
-section#project article img {
+section#project #projectArticle{
+    font-size: 20px;    
+}
+
+section#project #projectArticle img {
     display: block;
     margin-left: auto;
     margin-right: auto;

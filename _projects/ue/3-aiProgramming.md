@@ -1,5 +1,5 @@
 ---
-project: tgf
+project: ue
 type: info
 title: 'AI Programming'
 categories: 
