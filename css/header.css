@@ -70,7 +70,7 @@ div#contact {
     justify-self: end;
 }
 
-div#contact img {
+#contact img {
     height: 30px;
     widows: 30px;
 }

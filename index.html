@@ -9,7 +9,7 @@ title: Projects
     {% for post in site.projects %}
         {% if post.type == 'overview' %}
             <a href="{{site.baseurl}}{{post.url}}">
-                <div class="boxshadow" id="thumbnail" style="background-image: url({{site.baseurl}}{{post.background}})">
+                <div id="thumbnail" style="background-image: url({{site.baseurl}}{{post.background}})">
                     <div id="logo">
                         <img src="{{site.baseurl}}{{post.logo}}" alt="logo"/>
                     </div>

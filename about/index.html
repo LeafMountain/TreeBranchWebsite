@@ -29,26 +29,11 @@ meta: description
                                 <div id="description">
                                         <h2>{{post.title}}</h2>
                                         
-                                        <div id="links">
-                                                <ul>
-                                                        <li class="inline"><a href="{{site.baseurl}}{{post.url}}"><img id="contact" src="{{site.baseurl}}/img/" onmouseover="this.src='{{site.baseurl}}/img/';" onmouseout="this.src='{{site.baseurl}}/img/';" alt="Portfolio"></a></li>
-                                                        {% if post.linkedin %}
-                                                        <li class="inline"><a href="{{post.linkedin}}" target="_blank"><img id="contact" src="{{site.baseurl}}/img/" onmouseover="this.src='{{site.baseurl}}/img/';" onmouseout="this.src='{{site.baseurl}}/img/';" alt="LinkedIn"></a></li>
-                                                        {% endif %}
-        
-                                                        {% if post.twitter %}
-                                                        <li class="inline"><a href="{{post.twitter}}" target="_blank"><img id="contact" src="{{site.baseurl}}/img/twit_ico.png" onmouseover="this.src='{{site.baseurl}}/img/twitb_ico.png';" onmouseout="this.src='{{site.baseurl}}/img/twit_ico.png';" alt="Twitter"></a></li>
-                                                        {% endif %}
-                                                        
-                                                        {% if post.website %}
-                                                        <li class="inline"><a href="{{post.website}}" target="_blank"><img id="contact" src="{{site.baseurl}}/img/" onmouseover="this.src='{{site.baseurl}}/img/';" onmouseout="this.src='{{site.baseurl}}/img/';" alt="Website"></a></li>
-                                                        {% endif %}
-                                                        
-                                                        {% if post.cv %}
-                                                        <li class="inline"><a href="{{post.cv}}" target="_blank"><img id="contact" src="{{site.baseurl}}/img/" onmouseover="this.src='{{site.baseurl}}/img/';" onmouseout="this.src='{{site.baseurl}}/img/';" alt="CV"></a></li>
-                                                        {% endif %}                                                
-                                                </ul>                                        
-                                        </div>
+                                        <ul>
+                                                <li class="inline"><a href="{{site.baseurl}}{{post.url}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/port_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/portb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/port_ico-01.png';" alt="Portfolio"></a></li>
+                                                {% include contactinfo.html type=post %}
+                                                
+                                        </ul>
                                         
                                         <p>{{post.content}}</p>
 

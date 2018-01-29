@@ -33,3 +33,8 @@ h1.title {
 .inline {
     display: inline;
 }
+
+.contactimg {
+    height: 30px;
+    width: 30px;
+}
