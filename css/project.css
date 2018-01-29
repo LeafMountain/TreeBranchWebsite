@@ -12,6 +12,7 @@ section#project div#overview{
     "logo links"
     "logo desc";
     grid-gap: 10px;
+    text-align: justify;
 }
 
 section#project div#projectlogo{
@@ -29,8 +30,6 @@ section#project nav#project{
 
 section#project div#projectdescription{
     grid-area: desc;
-    font-size: 25px;
-    /* align-self: center; */
 }
 
 section#project li{
@@ -46,21 +45,12 @@ section#project #media li img{
     height: 100px;
 }
 
-section#project #links {
-    grid-area: links;
-    height: 30px;
-    /* justify-self: center; */
-}
-
 section#project #projectArticle{
-    font-size: 20px;    
+    text-align: justify;
 }
 
 section#project #projectArticle img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-self: center;
     max-width: 100%;
-    max-height: 720px;
-    padding: 20px;
 }
