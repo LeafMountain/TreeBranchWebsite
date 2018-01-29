@@ -8,8 +8,7 @@ section#project div#overview{
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-areas: 
-    "logo desc"
-    "nav nav";
+    "logo desc";
     grid-gap: 20px;
 }
 

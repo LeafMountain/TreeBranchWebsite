@@ -10,15 +10,19 @@ section#developers div#person {
 section#developers div#left {
     display: grid;
     grid-template-columns: 300px auto;
-    grid-template-areas: "port desc";
+    grid-template-areas: 
+    "port desc";
     grid-gap: 10px;
 }
 
 section#developers div#right {
     display: grid;
     grid-template-columns: auto 300px;
-    grid-template-areas: "desc port";
+    grid-template-areas: 
+    "desc port"
+    "links port";
     grid-gap: 10px;
+    text-align: end;
     
 }
 
@@ -30,6 +34,15 @@ section#developers img#portrait {
 section#developers div#description {
     grid-area: desc;
     padding: 10px;
+}
+
+section#developers div#links {
+    align-self: end;
+    justify-self: center;
+}
+
+section#developers div#links img{
+    height: 30px;
 }
 
 /* Text */

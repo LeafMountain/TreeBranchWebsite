@@ -21,19 +21,22 @@ layout: default
                 <center>
                 <ul>
                         <li>
-                                - <a href="#media">Media</a> - 
+                                {% if page.images %}
+                                <h3> - <a href="#media">Media</a>
+                                {% endif %}
+                                        - 
                                 {% for post in site.projects %}
                                 {% if post.categories contains page.project and post.type == "info" %}
                                         <a href="#{{post.title}}">{{post.title}}</a> - 
                                 {% endif %}
-                                {% endfor %}
+                                {% endfor %}</h3>
                         </li>
                 </ul>
                 </center>
                 <hr>
         </nav>
 
-
+        {% if page.images %}        
         <div id="media">
                 <center>
                 <h2>Media</h2>
@@ -46,6 +49,7 @@ layout: default
                 <br>
                 <hr>
         </div>
+        {% endif %}        
 
         {% for post in site.projects %}
         {% if post.categories contains page.project and post.type == "info" %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: Projects
 ---
 
 <div id="wrapper">
@@ -9,11 +9,14 @@ title: home
     {% for post in site.projects %}
         {% if post.type == 'overview' %}
             <a href="{{site.baseurl}}{{post.url}}">
-                <article style="background-image: url({{site.baseurl}}{{post.background}})">
-                    <img id="logo" src="{{site.baseurl}}{{post.logo}}" alt="logo"/>
-                    <h2>{{post.title}}</h2>
-                </article>
+                <div class="boxshadow" id="thumbnail" style="background-image: url({{site.baseurl}}{{post.background}})">
+                    <div id="logo">
+                        <img src="{{site.baseurl}}{{post.logo}}" alt="logo"/>
+                    </div>
+                    <h1 id="title">{{post.title}}</h1>
+                </div>
             </a>
+
             <hr>
         {% endif %}
     {% endfor %}
