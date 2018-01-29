@@ -1,8 +1,8 @@
 footer {
-    background-color: #171717;
-    bottom: 0;
+    background-color: var(--secondary-bg-color);
     margin-top: 20px;
     grid-area: footer;
+    align-self: end;
 }
 
 footer li {
