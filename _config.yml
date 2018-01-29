@@ -5,8 +5,10 @@ permalink: pretty
 collections:
   people:
     output: true
+    output_ext: .html
     permalink: /people/:path/
 
   projects:
-    output: true
+    output: true4
+    output_ext: .html    
     permalink: /projects/:path/

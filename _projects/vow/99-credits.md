@@ -1,5 +1,5 @@
 ---
-project: tgf
+project: vow
 type: info
 title: 'Credits'
 categories: 

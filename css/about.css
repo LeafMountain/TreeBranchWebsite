@@ -9,7 +9,7 @@ section#developers div#person {
 
 section#developers div#left {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 1fr 3fr;
     grid-template-areas: 
     "port desc";
     grid-gap: 10px;
@@ -17,7 +17,7 @@ section#developers div#left {
 
 section#developers div#right {
     display: grid;
-    grid-template-columns: auto 300px;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas: 
     "desc port"
     "links port";
@@ -28,7 +28,8 @@ section#developers div#right {
 
 section#developers img#portrait {
     grid-area: port;
-    width: 300px;
+    display: block;
+    width: 100%;
 }
 
 section#developers div#description {
@@ -39,17 +40,5 @@ section#developers div#description {
 section#developers div#links {
     align-self: end;
     justify-self: center;
-}
-
-section#developers div#links img{
-    height: 30px;
-}
-
-/* Text */
-
-section#developers h1#title {
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
 }
 
