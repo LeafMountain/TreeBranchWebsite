@@ -36,8 +36,10 @@ header nav {
     display: grid;
     grid-template-columns: 190px 1fr 250px;
     grid-template-areas: "branding menu contact";
-    bottom: 0px;
-    padding-top: 105px;
+    /* padding-top: 105px; */
+    height: 140px;
+    align-content: end;
+    
 }
 
 div#branding{
@@ -57,7 +59,6 @@ div#branding img {
 
 div#menu {
     grid-area: menu;
-    justify-self: start;
     min-width: 160px;
 }
 

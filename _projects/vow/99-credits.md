@@ -3,7 +3,7 @@ project: tgf
 type: info
 title: 'Credits'
 categories: 
-    - tgf
+    - vow
 ---
 ### DESIGN AND PROGRAMMING
 <br>
