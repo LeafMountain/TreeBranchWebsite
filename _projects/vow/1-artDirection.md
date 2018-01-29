@@ -3,7 +3,7 @@ project: tgf
 type: info
 title: 'Art Direction'
 categories: 
-    - tgf
+    - vow
     - bjork
 ---
 The graphical vision of the game sprang out of the combination of available skill-set restrictions, 

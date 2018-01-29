@@ -1,15 +1,20 @@
+section#project {
+    display: grid;
+    grid-gap: 10px;
+}
+
+/* Overview */
 section#project div#overview{
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas: 
-    "logo desc"
-    "nav nav";
+    "logo desc";
     grid-gap: 20px;
 }
 
 section#project div#projectlogo{
     grid-area: logo;
-    height: 100%;
+    align-self: center;
 }
 
 section#project div#projectlogo img{
@@ -18,13 +23,12 @@ section#project div#projectlogo img{
 
 section#project nav#project{
     grid-area: nav;
-    width: 100%;
 }
 
 section#project div#projectdescription{
     grid-area: desc;
-    width: 100%;
     font-size: 20px;
+    align-self: center;    
 }
 
 section#project li{

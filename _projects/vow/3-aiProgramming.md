@@ -3,7 +3,7 @@ project: tgf
 type: info
 title: 'AI Programming'
 categories: 
-    - tgf
+    - vow
     - lovberg
 ---
 

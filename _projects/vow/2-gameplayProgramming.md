@@ -4,7 +4,7 @@ type: info
 title: 'Gameplay Programming'
 contributors: lovberg
 categories: 
-    - tgf
+    - vow
     - lovberg
 ---
 

@@ -3,37 +3,31 @@
     grid-gap: 25px;
 }
 
-#showcase article {
-    position: relative;
-    background: black;
+#thumbnail {
     background-size: cover;
     background-position: center;
-    height: 250px;
-    vertical-align: bottom;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 250px;
+    background-color: black;    
+    /* height: 200px; */
 }
 
-#showcase article h2 {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    margin: 0 0 0 0;
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 55px;
-    padding: 0;
-    float: right;
+#thumbnail #title {
+    align-self: end;
+    justify-self: end;
+    line-height: 100%;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
-#showcase a {
-    color: white;
-    text-decoration: none;
+#thumbnail #logo{
+    height: 90%;
+    width: auto;
+    justify-self: start;
+    align-self: center;
+    margin: 10px;
 }
 
-#games article {
-    background-size: cover;
-    background-position: center;
-}
-
-#showcase #logo {
-    height: 100%;
+#thumbnail #logo img{
+    height: inherit;
 }
