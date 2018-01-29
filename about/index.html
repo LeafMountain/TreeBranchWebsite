@@ -27,13 +27,19 @@ meta: description
                         <div id="{% cycle 'left', 'right' %}">
                                 <img id="portrait" src="{{site.baseurl}}{{post.logo}}">
                                 <div id="description">
-                                        <a href="{{site.baseurl}}{{post.url}}">
-                                
                                         <h2>{{post.title}}</h2>
-                                        </a>
-                
+                                        
+                                        <ul>
+                                                <li class="inline"><a href="{{site.baseurl}}{{post.url}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/port_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/portb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/port_ico-01.png';" alt="Portfolio"></a></li>
+                                                {% include contactinfo.html type=post %}
+                                                
+                                        </ul>
+                                        
                                         <p>{{post.content}}</p>
+
                                 </div>
+                                
+                                
                         </div>
                 </div>
                 {% endfor %}

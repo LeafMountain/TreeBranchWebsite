@@ -5,10 +5,10 @@ title: 'Alexander Lövberg'
 project: lovberg
 
 # Contact info
-linkedin:
-twitter:
+linkedin: https://www.linkedin.com/in/alexanderlovberg/
+twitter: https://twitter.com/LeafMountain
 website:
-cv: 
+cv: data/AlexanderLovbergCV.pdf
 ---
 <br>
 Alexander does machines.

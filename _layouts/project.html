@@ -11,47 +11,63 @@ layout: default
                                 <img src="{{site.baseurl}}{{page.logo}}">
                         </center>
                 </div>
+                <ul>
+                        {% include contactinfo.html type=page %}
+                </ul>
+
                 <div id="projectdescription">
                         {{content}}                                
                 </div>
-                <nav id="project">
-                        <hr>
-                        <center>
-                        <ul>
-                                <li>
-                                        {% for post in site.projects %}
-                                        {% if post.categories contains page.project and post.type == "info" %}
-                                                <a href="#{{post.title}}">{{post.title}}</a> - 
-                                        {% endif %}
-                                        {% endfor %}
-                                </li>
-                        </ul>
-                        </center>
-                        <hr>
-                </nav>
+        </div>
 
-</div>
+        <nav>
+                <hr>
+                <center>
+                <ul>
+                        <li>
+                                {% if page.images %}
+                                <h3> - <a href="#media">Media</a>
+                                {% endif %}
+                                        - 
+                                {% for post in site.projects %}
+                                {% if post.categories contains page.project and post.type == "info" %}
+                                        <a href="#{{post.title}}">{{post.title}}</a> - 
+                                {% endif %}
+                                {% endfor %}</h3>
+                        </li>
+                </ul>
+                </center>
+                <hr>
+        </nav>
 
-<center>
-        <h2>Media</h2>
-<li>
-        {% for img in page.images %}
-        <img src="{{site.baseurl}}{{img}}">
-        {% endfor %}
-</li>
-</center>
+        {% if page.images %}        
+        <div id="media">
+                <center>
+                <h2>Media</h2>
+                <li>
+                        {% for img in page.images %}
+                        <img src="{{site.baseurl}}{{img}}">
+                        {% endfor %}
+                </li>
+                </center>
+                <br>
+                <hr>
+        </div>
+        {% endif %}        
 
-{% for post in site.projects %}
+        {% for post in site.projects %}
         {% if post.categories contains page.project and post.type == "info" %}
+        <article>
                 <div id="{{post.title}}">
                         <center><h2>{{post.title}}</h2></center>
+                        <br>                        
                         <p>{{post.content}}</p>
                 </div>
-                <hr>
-                <br>
+        </article>
                 
+        <hr>
         {% endif %}
-{% endfor %}
+        {% endfor %}
 
 </section>
 

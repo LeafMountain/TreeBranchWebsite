@@ -4,7 +4,7 @@ type: info
 title: 'Gameplay Programming'
 contributors: lovberg
 categories: 
-    - tgf
+    - ue
     - lovberg
 ---
 
@@ -17,8 +17,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum elit tempus 
 Vestibulum posuere varius neque, at luctus purus lobortis sagittis. Nulla feugiat rutrum est, a dignissim arcu. Integer vel laoreet nisi. Maecenas at lorem in nibh ornare cursus. Aliquam finibus mauris ac pulvinar suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi euismod eros lectus, et tristique eros rutrum vel. Donec tristique molestie sollicitudin. In eu tortor lacus. Fusce lacinia finibus pellentesque. Quisque at lorem efficitur, euismod nisi sed, porttitor felis. Duis dignissim tempus enim ut vehicula. Donec rhoncus nunc aliquam, rhoncus metus mollis, ultricies erat.
 
 <br>
-
-![Image of Yaktocat](https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg)
 
 Sed tempor luctus enim, sit amet ornare arcu condimentum ac. Donec ac lacus tincidunt, ultrices eros non, dapibus tellus. Praesent eget purus eget erat ullamcorper egestas vel nec sem. Maecenas viverra mollis semper. Quisque efficitur mi vel mi varius porta. Etiam sit amet purus nec urna convallis mollis non at magna. Nam ut tortor vestibulum, congue ipsum nec, efficitur risus. Aliquam mauris turpis, fermentum et lobortis eu, hendrerit id nunc. Praesent pharetra tellus id augue dapibus molestie. Etiam rutrum dapibus aliquam.
 

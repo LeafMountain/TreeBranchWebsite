@@ -1,15 +1,22 @@
+section#project {
+    display: grid;
+    grid-gap: 10px;
+}
+
+/* Overview */
 section#project div#overview{
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-rows: 30px auto;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas: 
-    "logo desc"
-    "nav nav";
-    grid-gap: 20px;
+    "logo links"
+    "logo desc";
+    grid-gap: 10px;
 }
 
 section#project div#projectlogo{
     grid-area: logo;
-    height: 100%;
+    align-self: center;
 }
 
 section#project div#projectlogo img{
@@ -18,13 +25,12 @@ section#project div#projectlogo img{
 
 section#project nav#project{
     grid-area: nav;
-    width: 100%;
 }
 
 section#project div#projectdescription{
     grid-area: desc;
-    width: 100%;
     font-size: 20px;
+    /* align-self: center; */
 }
 
 section#project li{
@@ -35,7 +41,22 @@ section#project a {
     font-size: 30px;
 }
 
-section#project li img{
+section#project #media li img{
     width: 200px;
     height: 100px;
+}
+
+section#project #links {
+    grid-area: links;
+    height: 30px;
+    /* justify-self: center; */
+}
+
+section#project article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 720px;
+    padding: 20px;
 }
