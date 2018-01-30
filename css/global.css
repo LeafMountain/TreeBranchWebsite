@@ -1,3 +1,7 @@
+:root\ {
+    font-size: 10px;    
+}
+
 * {
     /* Variables */
     --main-bg-color: #282828;
@@ -15,7 +19,7 @@
 
     /* text-rendering: optimizeLegibility; */
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.15rem;
 }
 
 h1 {
@@ -23,24 +27,33 @@ h1 {
     font-weight: 100;
     padding: 0;
     margin-left: 200px;
-    font-size: 60px;
+    font-size: 4rem;
 }
 
 h2 {
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 2rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 table {
     text-align: justify;
-    display: grid;
+    table-layout: fixed;
+    width: 100%;
+}
+
+tr, td {
+
+}
+
+img {
+    max-width: 100%;
 }
 
 /* Links */

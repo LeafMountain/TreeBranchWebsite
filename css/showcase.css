@@ -17,6 +17,7 @@
     align-self: end;
     justify-self: end;
     line-height: 100%;
+    text-shadow: 1px 1px 5px black, -1px -1px 5px black;
 }
 
 #thumbnail #logo{
