@@ -20,6 +20,8 @@
     /* text-rendering: optimizeLegibility; */
     font-weight: 300;
     font-size: 1.15rem;
+
+    box-sizing: border-box;
 }
 
 h1 {
@@ -33,11 +35,11 @@ h1 {
 h2 {
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -68,11 +70,11 @@ a:hover {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 50px;
+        font-size: 2em;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 1em;
     }
 
     tr {

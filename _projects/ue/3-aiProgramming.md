@@ -1,12 +1,13 @@
 ---
 project: ue
 type: info
-title: 'AI Programming'
+title: 'Zombie Brains (AI)'
 categories: 
     - ue
     - lovberg
 ---
 
-I did stuff and it worked. I'm super pro
-<br>
-<br>
+### Simple AI
+Idea behind the AI
+
+![Image of AI planning](/img/placeholder.gif)

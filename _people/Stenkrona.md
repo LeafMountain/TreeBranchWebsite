@@ -6,8 +6,7 @@ project: stenkrona
 ---
 <br>
 Axels game and level design is just as good as his walk is cool. 
-Abandoned as a child, a default walk animation found him, took him in 
-and raised him as its own.
+Abandoned as a child, a default walk animation found him, took him in and raised him as its own.
 <br>
 He has now embarked on a journey to spread laughter and great game 
 experiences to the world.
