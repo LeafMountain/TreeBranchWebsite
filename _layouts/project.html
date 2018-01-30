@@ -24,17 +24,16 @@ layout: default
                 <hr>
                 <center>
                 <ul>
-                        <li>
-                                {% if page.images %}
-                                <h3> - <a href="#media">Media</a>
-                                {% endif %}
-                                        - 
+                        <li class="inline">
+                                -
+                        </li>
                                 {% for post in site.projects %}
                                 {% if post.categories contains page.project and post.type == "info" %}
+                                <li class="inline">
                                         <a href="#{{post.title}}">{{post.title}}</a> - 
+                                </li>
                                 {% endif %}
-                                {% endfor %}</h3>
-                        </li>
+                                {% endfor %}
                 </ul>
                 </center>
                 <hr>

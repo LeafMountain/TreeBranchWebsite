@@ -32,8 +32,8 @@ section#project div#projectdescription{
     grid-area: desc;
 }
 
-section#project li{
-    display: inline;
+section#project #projectArticle li{
+    margin-left: 20px;
 }
 
 section#project a {
