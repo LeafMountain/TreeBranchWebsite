@@ -8,7 +8,7 @@ categories:
 ### GAMEPLAY DESIGN AND TESTING
 <br>
 <br>
-Fredrik Ambjörn Holmgren
+Fredrik Ambjorn Holmgren
 <br>
 Alexander Lovberg
 <br>
