@@ -4,7 +4,6 @@ logo: /img/people/Axel_Photograph.png
 title: 'Axel Stenkrona'
 project: stenkrona
 ---
-<br>
 Axels game and level design is just as good as his walk is cool. 
 Abandoned as a child, a default walk animation found him, took him in and raised him as its own.
 <br>
