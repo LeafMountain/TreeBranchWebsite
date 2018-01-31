@@ -3,7 +3,15 @@ layout: project
 logo: /img/people/Pat_Photograph.png
 title: 'Patrik Björk'
 project: bjork
+
+# Contact info
+linkedin: https://www.linkedin.com/in/patrik-bjork/
+twitter: https://twitter.com/BoomerangPython
+website: https://boomerangpython.artstation.com/
+cv:
+mail: boomerangpython@treebranchstudios.com
 ---
+
 <br>
 Patrik would define himself as a 3D/2D generalist and a graphics
 oriented game designer with indie upstart aspirations and

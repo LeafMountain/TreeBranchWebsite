@@ -5,29 +5,23 @@ title: 'Credits'
 categories: 
     - vow
 ---
-### DESIGN AND PROGRAMMING
+### GAMEPLAY DESIGN AND TESTING
 <br>
 <br>
-John Michael Bueno - Additional coding and Writing
+Fredrik Ambjörn Holmgren
 <br>
-Alexander Lovberg - Lead Programmer
+Alexander Lovberg
 <br>
-<br>
-### GRAPHICS
-<br>
-<br>
-Patrik Bjork - Lead Artist
-<br>
-Christian Ek - Rigging, Animation and Writing
-<br>
-Cecilia Jensgard - Environment art
-<br>
-Nora Cossa Akesson - Character and Environmental art
+Christian Ek
 <br>
 <br>
-### SFX AND MUSIC
+### ART AND DESIGN
 <br>
 <br>
-Mark Jones
+Patrik Bjork
+<br>
+Joakim Engholm
+<br>
+Jacob Stenberg
 <br>
 <br>
