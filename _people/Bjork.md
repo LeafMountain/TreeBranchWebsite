@@ -11,8 +11,6 @@ website: https://boomerangpython.artstation.com/
 cv:
 mail: boomerangpython@treebranchstudios.com
 ---
-
-<br>
 Patrik would define himself as a 3D/2D generalist and a graphics
 oriented game designer with indie upstart aspirations and
 a background in the RTS modding community.
