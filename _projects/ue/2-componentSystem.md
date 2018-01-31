@@ -41,7 +41,7 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-            <img src="/img/compplayer.png" alt="Player" height="300">
+            <img src="{{baseurl}}/img/compplayer.png" alt="Player" height="300">
         </td>
     </tr>
 </table>
