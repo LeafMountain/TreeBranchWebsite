@@ -19,4 +19,3 @@ In its current iteration (early alpha) it mostly has basic functionality such as
 
 <br>
 <br>
-The graphical vision of the game was initially heavily inspired by the grim dark artstyle of Darkest Dungeon, Borderlands and The Walking Dead Comics, but as work progressed it evolved into it's own style using less saturated shades of gradient colours combined with high-contrast shadowing.
