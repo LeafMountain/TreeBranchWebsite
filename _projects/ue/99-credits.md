@@ -6,27 +6,23 @@ categories:
     - ue
 ---
 ### DESIGN AND PROGRAMMING
+
 <br>
-<br>
-John Michael Bueno - Additional coding and Writing
-<br>
-Alexander Lovberg - Lead Programmer
+Alexander Lövberg - Lead Programmer
+
 <br>
 <br>
 ### GRAPHICS
+
 <br>
-<br>
-Patrik Bjork - Lead Artist
-<br>
-Christian Ek - Rigging, Animation and Writing
-<br>
-Cecilia Jensgard - Environment art
-<br>
-Nora Cossa Akesson - Character and Environmental art
+1. Patrik Bjork - Lead Artist
+
+2. Christian Ek - Rigging, Animation and Writing
+
 <br>
 <br>
 ### SFX AND MUSIC
-<br>
+
 <br>
 Mark Jones
 <br>
