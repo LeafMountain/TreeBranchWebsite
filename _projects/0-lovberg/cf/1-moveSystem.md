@@ -17,4 +17,4 @@ The biggest focus of this project was to get a responsive move system that the p
 </center>
 <br>
 
-A huge takeway from making this move system was the importance of the camera movement and positioning. The camera following when the player moved too far away mad a huge difference in the feeling of control.
+A huge takeway from making this move system was the importance of the camera movement and positioning. The camera following when the player moved too far away made a huge difference in the feeling of control.

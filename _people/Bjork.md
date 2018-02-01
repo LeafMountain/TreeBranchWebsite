@@ -7,7 +7,7 @@ project: bjork
 # Contact info
 linkedin: https://www.linkedin.com/in/patrik-bjork/
 twitter: https://twitter.com/BoomerangPython
-website: https://boomerangpython.artstation.com/
+artstation: https://boomerangpython.artstation.com/
 cv:
 mail: boomerangpython@treebranchstudios.com
 ---

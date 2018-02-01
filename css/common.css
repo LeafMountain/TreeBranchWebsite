@@ -38,3 +38,9 @@ h1.title {
     height: 30px;
     width: 30px;
 }
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
