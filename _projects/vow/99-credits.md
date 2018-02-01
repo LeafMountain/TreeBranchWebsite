@@ -7,7 +7,6 @@ categories:
 ---
 ### GAMEPLAY DESIGN AND TESTING
 <br>
-<br>
 Fredrik Ambjorn Holmgren
 <br>
 Alexander Lovberg
@@ -16,7 +15,6 @@ Christian Ek
 <br>
 <br>
 ### ART AND DESIGN
-<br>
 <br>
 Patrik Bjork
 <br>

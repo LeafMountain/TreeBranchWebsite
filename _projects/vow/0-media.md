@@ -6,4 +6,4 @@ categories:
     - vow
 ---
 
-![alt text](img/screenshots/vow01.png "3D Gameboard Mockup")
+![alt text](/img/screenshots/vow01.png "3D Gameboard Mockup")
