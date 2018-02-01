@@ -2,6 +2,7 @@
 layout: project
 logo: /img/people/Pat_Photograph.png
 title: 'Patrik Björk'
+role: 'Graphics Generalist'
 project: bjork
 
 # Contact info
