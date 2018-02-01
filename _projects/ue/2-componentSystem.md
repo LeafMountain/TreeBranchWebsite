@@ -23,9 +23,6 @@ Taggable | Tagging system to be able to check what kind of object this is |
 Instantiator | Creates a new object | 
 AIController | The AI logic | 
 
-<br>
-
-
 <table>
     <tr>
         <td>
@@ -45,10 +42,6 @@ AIController | The AI logic |
         </td>
     </tr>
 </table>
-
-
-
-<br>
 
 <table>
     <tr>
@@ -70,8 +63,6 @@ AIController | The AI logic |
     </tr>
 </table>
 
-<br>
-
 <table>
     <tr>
         <td>
@@ -89,8 +80,5 @@ AIController | The AI logic |
         </td>
     </tr>
 </table>
-
-<br>
-
 
 All of these components can be used to create different kinds of mechanics in a game. The idea is to make the designer free to try new ideas without having to ask a programmer for new scripts with and also gives the designer the creative freedom he / she needs.
