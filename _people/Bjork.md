@@ -9,7 +9,6 @@ project: bjork
 linkedin: https://www.linkedin.com/in/patrik-bjork/
 twitter: https://twitter.com/BoomerangPython
 artstation: https://boomerangpython.artstation.com/
-cv:
 mail: boomerangpython@treebranchstudios.com
 ---
 Patrik would define himself as a 3D/2D generalist and a graphics

@@ -20,6 +20,7 @@ meta: description
         <section id="developers">
                 <center>
                         <h2>Developers</h2>
+                        <br>
                 </center>
 
                 {% for post in site.people %}
@@ -27,8 +28,8 @@ meta: description
                         <div id="{% cycle 'left', 'right' %}">
                                 <img id="portrait" src="{{site.baseurl}}{{post.logo}}">
                                 <div id="description">
-                                        <h2>{{post.title}}</h2>
-                                        <h3>{{post.role}}</h3>
+                                        <h3>{{post.title}}</h3>
+                                        <h4>{{post.role}}</h4>
                                         <ul>
                                                 <li class="inline"><a href="{{site.baseurl}}{{post.url}}" title="Portfolio"><img class="contactimg" src="{{site.baseurl}}/img/icons/port_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/portb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/port_ico-01.png';" alt="Portfolio"></a></li>
                                                 {% include contactinfo.html type=post %}
