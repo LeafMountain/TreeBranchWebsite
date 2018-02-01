@@ -41,7 +41,7 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-            <img src="{{baseurl}}/img/compplayer.png" alt="Player" height="300">
+            <img src="{{baseurl}}/img/ue/componentplayer.png" alt="Player" height="300">
         </td>
     </tr>
 </table>
@@ -65,7 +65,7 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-            <img src="/img/compzombie.png" alt="Zombie" height="300">
+            <img src="/img/ue/componentzombie.png" alt="Zombie" height="300">
         </td>
     </tr>
 </table>
@@ -85,7 +85,7 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-            <img src="/img/compgun.png" alt="gun" height="300">
+            <img src="/img/ue/componentgun.png" alt="gun" height="300">
         </td>
     </tr>
 </table>
