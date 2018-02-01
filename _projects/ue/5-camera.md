@@ -11,7 +11,7 @@ To be able to experiment with different perspectives the camera component is hea
 
 <br>
 
-![Image of Camera Component in 3rd Person](/img/3perspective.png) | ![Image of Camera Component in 1st Person](/img/1perspective.png)
+![Image of Camera Component in 3rd Person](/img/ue/3perspective.png) | ![Image of Camera Component in 1st Person](/img/ue/1perspective.png)
 ---|---
 ![Image of 3rd Person Perspective](/img/ue/3settings.png) | ![Image of 1st Person Perspective](/img/ue/1settings.png)
 
