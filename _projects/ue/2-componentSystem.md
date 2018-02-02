@@ -8,9 +8,9 @@ categories:
     - lovberg
 ---
 
-## Building a Prefab
+### Building a Prefab
 
-### Components
+#### Components
 
 PlayerInput | Takes care of where to send the input from the controller | 
 Animate | Sends information to the animator component | 
@@ -22,9 +22,6 @@ Respawnable | Teleports the object to last checkpoint upon trigger |
 Taggable | Tagging system to be able to check what kind of object this is | 
 Instantiator | Creates a new object | 
 AIController | The AI logic | 
-
-<br>
-
 
 <table>
     <tr>
@@ -46,10 +43,6 @@ AIController | The AI logic |
     </tr>
 </table>
 
-
-
-<br>
-
 <table>
     <tr>
         <td>
@@ -70,8 +63,6 @@ AIController | The AI logic |
     </tr>
 </table>
 
-<br>
-
 <table>
     <tr>
         <td>
@@ -85,12 +76,12 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-            <img src="/img/ue/componentgun.png" alt="gun" height="300">
+        <center>
+            <div class="sketchfab-embed-wrapper"><iframe width="300" height="300" src="https://sketchfab.com/models/fd003120f20a4267b5fd695114bba9b7/embed?autospin=0.2&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+            </div>
+            </center>
         </td>
     </tr>
 </table>
-
-<br>
-
 
 All of these components can be used to create different kinds of mechanics in a game. The idea is to make the designer free to try new ideas without having to ask a programmer for new scripts with and also gives the designer the creative freedom he / she needs.

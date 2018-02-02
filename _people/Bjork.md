@@ -2,13 +2,13 @@
 layout: project
 logo: /img/people/Pat_Photograph.png
 title: 'Patrik Björk'
+role: 'Graphics Generalist'
 project: bjork
 
 # Contact info
 linkedin: https://www.linkedin.com/in/patrik-bjork/
 twitter: https://twitter.com/BoomerangPython
-website: https://boomerangpython.artstation.com/
-cv:
+artstation: https://boomerangpython.artstation.com/
 mail: boomerangpython@treebranchstudios.com
 ---
 Patrik would define himself as a 3D/2D generalist and a graphics

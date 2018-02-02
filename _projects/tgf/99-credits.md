@@ -6,25 +6,27 @@ categories:
     - tgf
 ---
 ### DESIGN AND PROGRAMMING
-<br>
+
 John Michael Bueno - Additional coding and Writing
-<br>
+
 Alexander Lovberg - Lead Programmer
+
 <br>
-<br>
+
 ### GRAPHICS
-<br>
+
 Patrik Bjork - Lead Artist
-<br>
+
 Christian Ek - Rigging, Animation and Writing
-<br>
+
 Cecilia Jensgard - Environment art
-<br>
+
 Nora Cossa Akesson - Character and Environmental art
+
 <br>
-<br>
+
 ### SFX AND MUSIC
-<br>
+
 Mark Jones
-<br>
+
 <br>
