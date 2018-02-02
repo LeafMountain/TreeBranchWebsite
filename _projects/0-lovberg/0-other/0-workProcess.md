@@ -1,15 +1,23 @@
 ---
 project: lovberg
 type: info
-title: 'Work Process'
+title: 'Overview'
 categories: 
     - lovberg
 ---
 
-It should be at least as fun to make a game as it would be playing it. Easy to use components makes a huge difference in the creation process.
-
 <br>
+
 <center>
-<iframe id="player" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com" frameborder="0"></iframe>
+<table>
+<tr>
+<td>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/66G_le3aPI4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</td>
+<td>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MRJTUXejQXI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</td>
+</tr>
+</table>
 </center>
 <br>
