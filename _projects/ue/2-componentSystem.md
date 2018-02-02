@@ -38,7 +38,10 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-            <img src="/img/ue/componentplayer.png" alt="Player" height="300">
+            <center>
+            <div class="sketchfab-embed-wrapper"><iframe width="300" height="300" src="https://sketchfab.com/models/b011300219724e3f85101f73a75e5a99/embed?autospin=0.2&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+            </div>
+            </center>
         </td>
     </tr>
 </table>
@@ -58,7 +61,10 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-            <img src="/img/ue/componentzombie.png" alt="Zombie" height="300">
+            <center>
+            <div class="sketchfab-embed-wrapper"><iframe width="300" height="300" src="https://sketchfab.com/models/4ca882113caf407e8f8fa1388117062e/embed?autospin=0.2&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+            </div>
+            </center>
         </td>
     </tr>
 </table>
@@ -76,8 +82,8 @@ AIController | The AI logic |
             </ul>
         </td>
         <td>
-        <center>
-            <div class="sketchfab-embed-wrapper"><iframe width="300" height="300" src="https://sketchfab.com/models/fd003120f20a4267b5fd695114bba9b7/embed?autospin=0.2&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+            <center>
+            <div class="sketchfab-embed-wrapper"><iframe width="300" height="300" src="https://sketchfab.com/models/577a71b916fd4b7e868921b3932fbba2/embed?autospin=0.2&amp;autostart=1&amp;camera=0&amp;preload=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="" ui_controls="0"></iframe>
             </div>
             </center>
         </td>
