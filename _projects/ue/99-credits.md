@@ -13,13 +13,8 @@ Alexander Lövberg - Lead Programmer
 
 ### GRAPHICS
 
-1. Patrik Bjork - Lead Artist
-2. Christian Ek - Rigging, Animation and Writing
+Patrik Björk - Lead Artist
+Christian Ek - Rigging, Animation and Writing
 
-<br>
-
-### SFX AND MUSIC
-
-Mark Jones
 
 <br>
