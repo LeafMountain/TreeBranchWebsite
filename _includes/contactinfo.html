@@ -8,7 +8,7 @@
 {% endif %}
 
 {% if include.type.artstation %}
-<li class="inline"><a href="{{include.type.website}}" target="_blank" title="{{include.type.website}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/art_ico-01-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/artb_ico-01-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/art_ico-01-01.png';" alt="Website"></a></li>
+<li class="inline"><a href="{{include.type.artstation}}" target="_blank" title="{{include.type.artstation}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/art_ico-01-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/artb_ico-01-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/art_ico-01-01.png';" alt="Website"></a></li>
 {% endif %}
 
 {% if include.type.cv %}
@@ -21,4 +21,20 @@
 
 {% if include.type.twitter %}
 <li class="inline"><a href="{{include.type.twitter}}" target="_blank" title="{{include.type.twitter}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/twit_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/twitb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/twit_ico-01.png';" alt="Twitter"></a></li>
+{% endif 
+
+{% if include.type.github %}
+<li class="inline"><a href="{{include.type.github}}" target="_blank" title="{{include.type.github}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/git_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/gitb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/git_ico-01.png';" alt="GitHub"></a></li>
+{% endif %}
+
+{% if include.type.gamelibrary %}
+<li class="inline"><a href="{{include.type.gamelibrary}}" target="_blank" title="{{include.type.gamelibrary}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/glib_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/glibb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/glib_ico-01.png';" alt="Game Library"></a></li>
+{% endif %}
+
+{% if include.type.icq %}
+<li class="inline"><a href="{{include.type.icq}}" target="_blank" title="{{include.type.icq}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/icq_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/icqb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/icq_ico-01.png';" alt="ICQ"></a></li>
+{% endif %}
+
+{% if include.type.telegram %}
+<li class="inline"><a href="{{include.type.teleg}}" target="_blank" title="{{include.type.teleg}}"><img class="contactimg" src="{{site.baseurl}}/img/icons/teleg_ico-01.png" onmouseover="this.src='{{site.baseurl}}/img/icons/telegb_ico-01.png';" onmouseout="this.src='{{site.baseurl}}/img/icons/teleg_ico-01.png';" alt="Telegram"></a></li>
 {% endif %}
