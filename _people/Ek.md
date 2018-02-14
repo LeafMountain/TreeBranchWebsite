@@ -10,7 +10,7 @@ linkedin: https://www.linkedin.com/in/iciraus/
 twitter: https://twitter.com/Iciraus
 gamelibrary: https://myvideogamelist.com/mylist/Iciraus
 telegram: https://t.me/Iciraus
-icq: '37277899'
+icq: https://icq.com/people/37277899/en
 mail: iciraus@treebranchstudios.com
 ---
 Christian is a technical Animator and coordinator of Game projects. 
