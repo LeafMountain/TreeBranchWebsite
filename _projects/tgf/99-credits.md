@@ -18,9 +18,9 @@ Patrik Björk - Lead Artist
 
 Christian Ek - Rigging, Animation and Writing
 
-Cecilia Jensgard - Environment art
+Cecilia Jensgård - Environment art
 
-Nora Cossa Akesson - Character and Environmental art
+Nora Cossa Åkesson - Character and Environmental art
 
 
 ### SFX AND MUSIC
