@@ -7,16 +7,16 @@ categories:
 ---
 ### GAMEPLAY DESIGN AND TESTING
 
-Fredrik Ambjorn Holmgren
+Fredrik Ambjörn Holmgren
 
-Alexander Lovberg
+Alexander Lövberg
 
 Christian Ek
 
 
 ### ART AND DESIGN
 
-Patrik Bjork
+Patrik Björk
 
 Joakim Engholm
 
