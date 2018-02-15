@@ -9,12 +9,9 @@ categories:
 
 Alexander Lövberg - Lead Programmer
 
-<br>
 
 ### GRAPHICS
 
 Patrik Björk - Lead Artist
+
 Christian Ek - Rigging, Animation and Writing
-
-
-<br>
